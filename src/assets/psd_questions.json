@@ -1,0 +1,3403 @@
+[
+  {
+    "question": "When can Product Backlog Refinement occur?",
+    "answers": [
+      "Only during Sprint Planning.",
+      "Anytime during the Sprint.",
+      "Only during Refinement meetings planned by the Product Owner.",
+      "Before Sprint Planning."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What would NOT be considered Refactoring?",
+    "answers": [
+      "Reordering method parameters to improve readability.",
+      "Extracting interfaces.",
+      "Renaming things to be more logical.",
+      "Changing external interfaces or APIS.",
+      "Extracting methods."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Your Scrum Team is one of seven teams working on a Software Product. All teams use the same Version Control System. Which is the best approach to deliver a high-quality Increment?",
+    "answers": [
+      "Developers should perform a combination of local and private builds.",
+      "Each team's automated build is integrated toward the end of the Sprint.",
+      "There is one automated and integrated build for all seven teams.",
+      "Each team should have its own automated build."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Who creates documentation included with an Increment?",
+    "answers": [
+      "The Developers.",
+      "Increments do not need documentation.",
+      "The Product Owner.",
+      "Technical Writers.",
+      "The Scrum Master."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is a merge in a Version Control System?",
+    "answers": [
+      "Copying a portion of a code base to isolate it from the original codebase.",
+      "Identifying a particular codebase as ready for distribution.",
+      "Triggering a Deployment into Production.",
+      "Combining two or more versions of code into a single codebase."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which three of the following are feedback loops in Scrum?",
+    "answers": [
+      "Daily Scrum.",
+      "Release Planning.",
+      "Sprint Review.",
+      "Refinement Meeting.",
+      "Sprint Retrospective."
+    ],
+    "correct": [
+      0,
+      2,
+      4
+    ]
+  },
+  {
+    "question": "Which four types of tests can be included in an automated test harness?",
+    "answers": [
+      "Performance.",
+      "Exploratory.",
+      "Unit.",
+      "Functional.",
+      "Manual regression.",
+      "Integration."
+    ],
+    "correct": [
+      0,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "question": "Which concept is described by the Last Responsible Moment?",
+    "answers": [
+      "Making decisions as soon as possible to close feedback loops as soon as possible.",
+      "Discover decisions to be made as soon as possible but postpone deciding to the latest reasonable moment.",
+      "The last moment in a Sprint when code changes are allowed, after this only stabilization work should be conducted.",
+      "Opening a learning window to validate hypotheses and create learning.",
+      "The last moment a Developer is responsible for quality, after this the Tester is responsible."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Choose four desirable characteristics of a Unit Test.",
+    "answers": [
+      "Includes exercising the persistence layer.",
+      "Makes assertions about only one logical concept.",
+      "Independent of others.",
+      "Test code is as small as possible.",
+      "Execution is fast."
+    ],
+    "correct": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "Why does a test written using TDD (Test Driven Development) initially fail?",
+    "answers": [
+      "Because the test has not been refactored.",
+      "Because it has to be put into an automated test harness to be run.",
+      "Because the tests are checked in before the Product code exists.",
+      "Because the Product code to satisfy the test does not yet exist."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "When do the Developers show their work to the Product Owner?",
+    "answers": [
+      "Whenever the Product Owner asks.",
+      "During the Sprint Review.",
+      "Anytime the Developers need feedback from the Product Owner.",
+      "All of the above."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What are possible benefits from practicing Test Driven Development (TDD)?",
+    "answers": [
+      "It is a great way for Testers to contribute early in the Sprint as they can start creating all the tests from the beginning on.",
+      "It makes Integration Tests obsolete and by doing so saves a lot of time.",
+      "It helps break down complex problems into smaller ones that are much easier to be tackled.",
+      "It increases collaboration between Developers as it requires Pair Programming.",
+      "It might lead to better code as Refactoring is part of the TDD cycle.",
+      "It helps to identify gaps in understanding the desired behavior."
+    ],
+    "correct": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "question": "Who decides the System Architecture of a Product developed using Scrum?",
+    "answers": [
+      "The Architect chosen by the Scrum Team.",
+      "The Software Architect assigned to the Scrum Team.",
+      "The Developers with input from the Scrum Team and others.",
+      "The Chief Architect."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When using Continuous Integration, how often should the build be executed?",
+    "answers": [
+      "Once per hour.",
+      "Whenever new or changed code is checked into version control.",
+      "Once per day.",
+      "Before the end of the Sprint.",
+      "Whenever new tests are created or uncertainty arises about whether old tests will pass."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following are advantages of Continuous Integration?",
+    "answers": [
+      "Readability of code is improved.",
+      "Know immediately how a change affected the Product.",
+      "The feature-branch is generally kept in a buildable state.",
+      "Reduce effort and risk when integrating changes."
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "Who determines how work is performed during the Sprint?",
+    "answers": [
+      "The Scrum Master.",
+      "The Scrum Team.",
+      "Team Manager.",
+      "Subject matter experts.",
+      "The Developers."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Who creates tests on a Scrum Team?",
+    "answers": [
+      "The Product Owner.",
+      "The Developers.",
+      "Quality Assurance Specialists.",
+      "The Scrum Master."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is Test First Development (TFD)?",
+    "answers": [
+      "Creating tests before satisfying them.",
+      "Testing existing code before adding more code to it.",
+      "Having the Tester in the Scrum Team write the test plans before coding.",
+      "The continuous restructuring of Software to retain flexibility."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which is the most reliable form of technical documentation?",
+    "answers": [
+      "A spreadsheet of passing manual tests.",
+      "The Developer's whiteboard.",
+      "UML model.",
+      "Release notes.",
+      "A help file.",
+      "A passing test harness with clear naming and vocabulary."
+    ],
+    "correct": 5
+  },
+  {
+    "question": "While developing new functionality, you find a bug that has already been delivered to the customer. What do you do?",
+    "answers": [
+      "Revise the tests so that the bug no longer appears on the bug report.",
+      "Fix the bug.",
+      "Talk to the Product Owner.",
+      "Stub out the code that caused the bug so it no longer occurs."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Who has the final decision about the order of items in the Product Backlog?",
+    "answers": [
+      "The Scrum Master.",
+      "The Stakeholders.",
+      "The Scrum Team.",
+      "The Developers.",
+      "The Product Owner."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "What are two differences between Unit Tests and Integration Tests?",
+    "answers": [
+      "A Unit Test isolates a specific system behavior.",
+      "An Integration Test usually focuses on the integration of two or more units.",
+      "A Unit Test is automated.",
+      "An Integration Test runs overnight.",
+      "A Unit Test only runs on a Developer's workstation."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "How much time must a Product Owner spend with the Developers?",
+    "answers": [
+      "100%.",
+      "Enough so that the Product Owner is not surprised by the value delivered by the Increment.",
+      "40%, or more if the Stakeholders agree.",
+      "Any amount of time the Developers ask the Product Owner to be present."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What are the typical roles when practicing Pair Programming?",
+    "answers": [
+      "Product Owner and Developer.",
+      "Business Analyst and Developer.",
+      "Tester and Developer.",
+      "Driver and Navigator.",
+      "Frontend and Backend."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "True or False: When multiple teams work together on the same Product, each team should maintain a separate Product Backlog.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are three of the best ways to address non-functional requirements?",
+    "answers": [
+      "Scrum is for functional, front-end development only.",
+      "Important, recurring non-functional requirements can be added to the Definition of Done.",
+      "Discuss them during a risk mitigation phase before development.",
+      "Include them in the Product Backlog.",
+      "Specific expectations can be used as Acceptance Criteria to specific Product Backlog Items.",
+      "Before the release, they should be tested and validated in a hardening Sprint."
+    ],
+    "correct": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "What is the primary purpose of Refactoring?",
+    "answers": [
+      "Ensuring that all factors are constantly aligned.",
+      "Removing all bugs that were found during Regression Tests.",
+      "Making sure that the code is readable and maintainable.",
+      "Creating better technical documentation."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which are four attributes of a good bug report?",
+    "answers": [
+      "Expected results and observed results.",
+      "Includes build or version number where bug was found.",
+      "Includes code for a proposed fix.",
+      "Provides simple and repeatable reproduction steps.",
+      "Screenshots or other pictures of the bug in action.",
+      "Explains some new system functionality desired."
+    ],
+    "correct": [
+      0,
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "The practice of decomposing a requirement into failing tests is called:",
+    "answers": [
+      "Regression Testing.",
+      "Object oriented requirements definition.",
+      "Acceptance Test Driven Development.",
+      "Behavior Driven Development."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is a mock object?",
+    "answers": [
+      "A test object that mimics the behavior of a dependency in the system under test.",
+      "A mock helps you create a build script.",
+      "Mocks, stubs, dummies, fakes, and shims are all the same.",
+      "A mock is a way to initialize the database for testing."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which four are benefits of Test Driven Development?",
+    "answers": [
+      "It improves quality and reduces bugs.",
+      "It reduces the cost of maintenance over time.",
+      "It promotes good design and separation of concerns.",
+      "It ensures no defects are present in the code.",
+      "It causes you to construct a test harness that can be automated."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "question": "Which are three attributes of a bad bug report?",
+    "answers": [
+      "Vague statements or untested assumptions.",
+      "Generic titles.",
+      "Simple and repeatable reproduction steps.",
+      "Assigning blame.",
+      "One bug per report."
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "When using Scrum, can a Scrum Team use Continuous Delivery?",
+    "answers": [
+      "Yes, there is nothing in Scrum that conflicts with Continuous Delivery.",
+      "No, because the Product Owner may not be available each time a PBI is done and the Product Owner has to decide if it should be released.",
+      "No, because the increment has to be approved at the Sprint Review before it can be released, and a 2-week Sprint would not be considered continuous.",
+      "No, because Stakeholders may have already seen the new features and the Sprint Review will be meaningless.",
+      "No, because before releasing an Increment it first has to fulfill the Definition of Done."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "You are asked to refactor part of the codebase for Application X. When you are done, all Unit Tests pass with 50% Code Coverage. What can you infer from this?",
+    "answers": [
+      "At least 50% of Application X functions correctly.",
+      "At most 50% of Application X functions correctly.",
+      "There are no bugs present in Application X.",
+      "You did not break any existing Unit Tests."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What are two ways that regulatory compliance issues are dealt with in Scrum?",
+    "answers": [
+      "They are addressed by a separate team who is responsible for compliance issues.",
+      "They are addressed along with functional development of the Product.",
+      "They are discussed, determined, and documented before the actual feature development Sprints.",
+      "They are added to the Product Backlog and addressed in early Sprints, while always requiring at least some business functionality. no matter how small."
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "True or False: User Stories are required in the Product Backlog.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In Software Development, DRY refers to:",
+    "answers": [
+      "Code with low Cyclomatic Complexity.",
+      "Code with minimal duplication.",
+      "Code that has not been peer reviewed.",
+      "Code that has been peer reviewed."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which statements are true when multiple Scrum Teams work on a Software Product at the same time?",
+    "answers": [
+      "All Scrum Teams work in their own version control branch.",
+      "Code is merged at the Scrum of Scrums.",
+      "The Scrum Teams must integrate their work before the end of the Sprint.",
+      "The Scrum Teams coordinate their work to deliver a single Increment.",
+      "Each Scrum Team should have a different Product Owner."
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Which answer best describes Behavior Driven Development (BDD)?",
+    "answers": [
+      "A style of Test Driven Development focusing on user and system interactions.",
+      "A development style that accounts for leadership style among team members.",
+      "A way to organize Unit Tests based on class and method structures.",
+      "A technique for maintaining Regression Test harnesses."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In what ways do Developers contribute to refining the Product Backlog?",
+    "answers": [
+      "They ask questions in order to clarify the intent of Product Backlog Items.",
+      "They do not. The Developers are only responsible for prioritizing technical work.",
+      "They do not. The Scrum Master and the Product Owner are responsible for Product Backlog Refinement.",
+      "They give input on technical dependencies.",
+      "They may update estimates for Product Backlog Items."
+    ],
+    "correct": [
+      0,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "When should the Developers create their first automated build?",
+    "answers": [
+      "Just before the Product is released.",
+      "Before writing the first line of code.",
+      "When the Product Owner asks for a build.",
+      "Just before the end of the Sprint.",
+      "As soon as there is code in the Version Control System."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "Which types of tests can be automated?",
+    "answers": [
+      "Exploratory.",
+      "Performance.",
+      "Unit.",
+      "Smoke.",
+      "Functional.",
+      "Integration."
+    ],
+    "correct": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "question": "How much work is required of the Developers to complete a Product Backlog Item selected during the Sprint Planning?",
+    "answers": [
+      "A proportional amount of time on analysis, design, development, and testing.",
+      "All development work and at least some testing.",
+      "As much as they can fit into the Sprint, with remaining work deferred to the next Sprint.",
+      "As much as s required to meet the Scrum Team's Definition of Done."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Why might Developers choose to do Pair Programming?",
+    "answers": [
+      "Information sharing and learning.",
+      "Improving Code Quality.",
+      "Efficiency.",
+      "It can be a fun way to work.",
+      "All of the above."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "What is the role of Modeling in Scrum Teams?",
+    "answers": [
+      "Models are not used by agile teams.",
+      "Models are maintained along with the Software as it emerges.",
+      "Models are assembly instructions for the Developers.",
+      "Modeling may be useful to increase shared understanding."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following are DevOps Practices?",
+    "answers": [
+      "Continuous Integration / Continuous Deployment / Continuous Delivery.",
+      "Blue-Green Deployment.",
+      "Hypothesis Driven Development.",
+      "Vertical Teams.",
+      "Blameless Postmortem.",
+      "All of the above."
+    ],
+    "correct": 5
+  },
+  {
+    "question": "While practicing Test Driven Development, what is done after the test fails?",
+    "answers": [
+      "Write the minimum amount of Product code to satisfy the test.",
+      "Refactor the test so the code passes.",
+      "Run it again to make sure it really fails.",
+      "Implement the required functionality.",
+      "Meet with the Business Analyst to ensure that the test is correct."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What tactic should a Scrum Master use to divide a group of 100 people into multiple Scrum Teams?",
+    "answers": [
+      "Create teams based on their skills across multiple layers (such as database, Ul, etc.).",
+      "Ask the people to divide themselves into teams.",
+      "Ask the Product Owner to assign the people to teams."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Developers are blocked by an impediment in the middle of the Sprint. The impediment is outside the Developer's control. What should they do?",
+    "answers": [
+      "Stop using Scrum until the impediment is resolved.",
+      "Complete the work that can be done and complete the remainder during the hardening Sprint.",
+      "Immediately raise the issue to the Scrum Master.",
+      "Cancel the Sprint.",
+      "Drop the Product Backlog Items affected by the impediment from the Sprint Plan."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is an Integration Test?",
+    "answers": [
+      "A test of the user interface.",
+      "A test runs during a Continuous Integration build.",
+      "A test of a single unit of functionality.",
+      "A test of multiple units of functionality."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following describes the focus of the first way of DevOps?",
+    "answers": [
+      "The first set of practices a team should apply before moving to the second way.",
+      "Using automated build and release pipelines.",
+      "To deliver value earlier and more frequently.",
+      "A tool-focused way of introducing DevOps, compared to a mindset way (second way) and organizational structure (third way).",
+      "A culture of continuous experimentation and learning."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which of the following is true about the Definition of Done?",
+    "answers": [
+      "It might be a subject of discussion during Sprint Retrospective.",
+      "It is the sole responsibility of the Developers to define it.",
+      "It is synonymous with Acceptance Criteria.",
+      "It can only be extended; nothing can be removed.",
+      "It defines a state when the entire Increment is releasable."
+    ],
+    "correct": [
+      0,
+      4
+    ]
+  },
+  {
+    "question": "At Sprint Planning, the Scrum Team has NO clear standard to meet for releasable Software. What should the Scrum Team do?",
+    "answers": [
+      "Ask the Product Owner to specify a Definition of Done.",
+      "Create a unique completion checklist for each item in the Sprint.",
+      "Specify a shared Definition of Done.",
+      "Ask the Scrum Master what they should do."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Based on \"Sprint 7 Burndown Chart\" would you do anything different in Sprint 8?\n\n![Burndown](images/burndown.jpg)",
+    "answers": [
+      "The Scrum Master adds additional Developers for Sprint 8.",
+      "The Developers carry over incomplete Sprint Backlog items from Sprint 7 to Sprint 8 and monitor the Sprint 8 burn-down chart. As soon as deviation from trends is detected, the Developers work with the Product Owner to negotiate remaining work.",
+      "There is nothing wrong The Developers will present all Product Backlog Items selected for Sprint 7 at the end of the Sprint.",
+      "The Developers may forecast less overall work in Sprint 8.",
+      "Stakeholders will encourage the Scrum Team to estimate better during the Sprint 8 Planning Meeting.",
+      "The Developers put incomplete Product Backlog Items back into the Product Backlog for re-ordering.",
+      "The Product Owner may ask the Developers to complete the unfinished Product Backlog Items from Sprint 7 in Sprint 8."
+    ],
+    "correct": [
+      3,
+      5
+    ]
+  },
+  {
+    "question": "True or False: Database design must be complete before coding starts to ensure a solid foundation?",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "The Daily Scrum event happens every day. What would be three concerns if the frequency were to be lowered to every two to three days?",
+    "answers": [
+      "Opportunities to inspect and adapt in the Sprint Backlog are lost.",
+      "The Scrum Master loses the ability to update the Gantt Chart properly.",
+      "Too much work is spent updating the Scrum Board before meeting.",
+      "Sprint Plan may become inaccurate.",
+      "Impediments are raised and resolved more slowly.",
+      "The Product Owner cannot accurately report to the Stakeholders."
+    ],
+    "correct": [
+      0,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "Which of the following are required by Scrum? (choose all of those who apply)",
+    "answers": [
+      "Release Burnup Chart.",
+      "Burndown Chart.",
+      "Unit Tests.",
+      "Critical Path Analysis.",
+      "Refactoring.",
+      "Build automation.",
+      "None of the above."
+    ],
+    "correct": 6
+  },
+  {
+    "question": "Who is responsible for creation of the Definition of Done?",
+    "answers": [
+      "The Scrum Master.",
+      "The Scrum Team.",
+      "The Developers.",
+      "The Product Owner."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Pair Programming is implemented by?",
+    "answers": [
+      "Frontend and Backend Developers.",
+      "Tester and Developer.",
+      "Developer and Scrum Master.",
+      "Two persons working on the same PBI."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following best describes Emergent Architecture?",
+    "answers": [
+      "Starting development of a Software Product requires a clear understanding of the underlying Software Architecture and Emergent Architecture describes the process of creating this initial architecture.",
+      "The Software Architecture emerges solely decisions the Developers make from a technical perspective.",
+      "In Scrum there is no Architecture-Role therefore architecture emerges naturally.",
+      "The desire to make decisions easier to change in the future and find the best possible point in time to make decisions.",
+      "Enterprise Architects must be involved to create the foundation of each Software Product."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which are two benefits of establishing naming conventions for code? (choose best two answers)",
+    "answers": [
+      "To make it easy to distinguish between different Software Products.",
+      "To make the code more readable.",
+      "To communicate the identity of the Developer who worked on the code.",
+      "To reduce friction in a shared codebase.",
+      "To ensure that abandoned functions are not created."
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "Does delivering changes frequently and directly into Production help to reduce risk? (choose two)",
+    "answers": [
+      "Yes, because the changes you make are much smaller and it is easier to fix problems.",
+      "No, because each release means a risk to break something so releasing more frequently would increase the risk.",
+      "Yes, because frequent release encourage the Developers to automate the release process.",
+      "Yes, because you get earlier feedback and can learn faster.",
+      "No, the only way to tackle these risks is by extensive risk management.",
+      "No, because releasing needs extensive testing which cannot be conducted frequently."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "True or False: Best Practices are recommended to solve complex problems.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When is Performance Testing most effectively performed?",
+    "answers": [
+      "Often, throughout development of the Software.",
+      "Just before deploying to Production.",
+      "After coding is complete.",
+      "In Production."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which three of the following criteria are most helpful as part of a Scrum Team's Definition of Done? (choose best three answers)",
+    "answers": [
+      "The Product is released at the end of every Sprint.",
+      "Acceptance Tests pass.",
+      "Code Review is done.",
+      "Regression Tests pass.",
+      "No impediments exist."
+    ],
+    "correct": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "A team has expressed requirements as a set of failing Acceptance Tests. What are two benefits? (choose best two answers)",
+    "answers": [
+      "Improves quality in the requirement itself.",
+      "Clear Acceptance Criteria for each feature.",
+      "Using a code generation tool, the solution can be generated from the requirements model.",
+      "Promotes the use of DRY principle.",
+      "Tracking of competencies."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "Which is LEAST useful when measuring Code Maintainability?",
+    "answers": [
+      "Function Points.",
+      "Cyclomatic Complexity.",
+      "Depth of Inheritance."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which two criteria are useful in deciding if something should be documented every Sprint? (choose best two answers)",
+    "answers": [
+      "The Scrum Master requires it.",
+      "It is required by the Definition of Done.",
+      "The documentation is used to enhance and maintain the Software.",
+      "The Software tool being used requires it.",
+      "It has always been documented in the past."
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "What factor should be considered when establishing the Sprint length?",
+    "answers": [
+      "The need of the team to learn on doing work and measuring results.",
+      "The frequency at which team formation can be changed.",
+      "The organization release schedule.",
+      "The organization has mandated similar length Sprints."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What are some disadvantages of Code Coverages as a measurement for how well a system or Product is tested? (choose best three answers)",
+    "answers": [
+      "It only provides insights for programmers.",
+      "It does not ensure that the most important or highest risk areas of the code are being exercised by the tests.",
+      "It could create incentives to write tests that simply increase Code Coverage, rather than tests that find bugs without increasing coverage.",
+      "It is too complicated to explain to Management.",
+      "Developers could stop adding more valuable tests once the target coverage is achieved."
+    ],
+    "correct": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "question": "Which of the following are quality goals in Application Architecture? (choose best two answers)",
+    "answers": [
+      "Build.",
+      "Security.",
+      "Design Pattern selection.",
+      "Scalability."
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "True or False: Stakeholders can be included in Product Backlog Refinement?",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What are two good ways for the Developers to make a non-functional requirements visible?",
+    "answers": [
+      "Put them on a separate list on the Scrum board, available for all to see.",
+      "Add them to the Product Backlog and keep the Product Owner posted on the expected effort.",
+      "Run the Integration and Regression Tests before the end of the Sprint, and capture the open work for the Sprint Backlog of the next Sprint.",
+      "Add them to the Definition of Done so the work is taken care of every Sprint."
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "What activities would a Product Owner typically undertake in the phase between the end of the current Sprint and the start of the next Sprint? (choose the best answer)",
+    "answers": [
+      "There are no such activities. The next Sprint starts immediately after the current Sprint.",
+      "Work with the Quality Assurance departments on the Increment of the current\u00a0Sprint.",
+      "Refine the Product Backlog.",
+      "Update the project plan with Stakeholders."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "You are the Scrum Master on a newly formed Scrum Team. Which two of the following activities would probably help the team in starting up?\u00a0(choose the best two answers)",
+    "answers": [
+      "Ensure the Scrum Team members have compatible personalities.",
+      "Introduce a bonus system for the top performers in the team.",
+      "Ensure the team understands they need a Definition of Done.",
+      "Have the development managers for each Developers member introduce their direct reports and go over their responsibilities on the Scrum Team.",
+      "Ask the Product Owner to discuss the Product, its vision, history, goals, and context, as well as answer questions."
+    ],
+    "correct": [
+      2,
+      4
+    ]
+  },
+  {
+    "question": "Which best describes the Product Backlog?\u00a0(choose the best answer)",
+    "answers": [
+      "It contains all foreseeable tasks and requirements from which the Scrum team can develop and maintain a complete project plan.",
+      "It is allowed to grow and change as more is learned about the Product and its\u00a0customers.",
+      "It is baselined to follow change management processes.",
+      "It provides just enough information to enable a Scrum team to start the design phase of a Product."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are two responsibilities of Testers in the Developers? (choose the best two answers)",
+    "answers": [
+      "Verifying the work of programmers.",
+      "Scrum has no \"Tester\" role.",
+      "Finding bugs.",
+      "Everyone in the Developers is responsible for quality.",
+      "Tracking quality metrics."
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "How do you know that the Developers are cross-functional?\u00a0(choose the best answer)",
+    "answers": [
+      "A few of the Developers pair program and do Test Driven Development.",
+      "The Developers have all the skills to create a potentially releasable increment by the end of every Sprint.",
+      "Every member of the Developers is able to perform every task.",
+      "There are no conflicts within the Developers."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "For the purpose of transparency, when does Scrum say a new Increment of working Software must be available? (choose the best answer)",
+    "answers": [
+      "When the Product Owner asks to create one.",
+      "At the end of every Sprint.",
+      "Before the release Sprint.",
+      "Every 3 Sprints.",
+      "After the Acceptance Testing phase."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which three behaviors demonstrate that a team is self-managing? (choose the best three answers)",
+    "answers": [
+      "The Developers inviting external people to the Sprint Planning to ask them how to turn a Product Backlog Item into an Increment via a complete and detailed Sprint Backlog.",
+      "The Developers are working within the boundaries of their functional description and nicely handing off work from analyst to Developer to Tester to integration.",
+      "The Product Owner doesn't need to be at Sprint Retrospectives.",
+      "Stakeholders walking in at the Daily Scrum to check progress and work with the\u00a0Scrum Master to optimize the functional scope for the Sprint.",
+      "The Developers collaboratively selecting their own work during the\u00a0Sprint.",
+      "The Scrum Master is no longer needed.",
+      "The Developers have all the skills needed to create a releasable Increment.",
+      "The Developers creating their own Sprint Backlog, reflecting all work that is part of the Definition of Done."
+    ],
+    "correct": [
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "question": "What is the purpose of a Sprint Review? (choose the best answer)",
+    "answers": [
+      "To take time to judge the validity of the project.",
+      "To inspect the Product Increment with the Stakeholders and collect feedback on\u00a0next steps.",
+      "To review the Scrum Team's activities and processes during the Sprint.",
+      "To build team spirit."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "True or False:\u00a0The Product Owner makes sure the team selects enough from the Product Backlog\u00a0for a Sprint to satisfy the Stakeholders.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which statement best describes the Sprint Backlog as outcome of the Sprint Planning?\u00a0(choose the best answer)",
+    "answers": [
+      "It is the Developers plan for the Sprint.",
+      "Every item has a designated owner.",
+      "It is a complete list of all work to be done in a Sprint.",
+      "Each task is estimated in hours.",
+      "It is ordered by the Product Owner."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The Developers selects a set of Product Backlog Items for a Sprint Backlog with the intent to\u00a0get the selected items \"Done\" by the end of the Sprint. Which three phrases best describe the\u00a0purpose of a Definition of Done? (choose the best three answers)",
+    "answers": [
+      "It provides a template for elements that need to be included in the technical\u00a0documentation.",
+      "It guides the Developers in creating a forecast at the Sprint Planning.",
+      "It controls whether the Developers have performed their tasks.",
+      "It creates transparency over the work inspected at the Sprint Review.",
+      "It defines what it takes for an Increment to be ready for release.",
+      "It tracks the percentage complete of a Product Backlog Item."
+    ],
+    "correct": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "Which output from Sprint Planning provides the Developers with a target and overarching direction for the Sprint? (choose the best answer)",
+    "answers": [
+      "The Sprint Goal.",
+      "Sprint Review minutes.",
+      "The Release Plan.",
+      "The Sprint Backlog."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The Product Owner determines how many Product Backlog Items the Developers selects\u00a0for a Sprint. (choose the best answer)",
+    "answers": [
+      "True, but only after confirmation by the resource manager that the Team has\u00a0enough capacity.",
+      "False, capacity and commitment are the Project Manager's responsibility.",
+      "False, the Scrum Master does that.",
+      "True.",
+      "True, accordingly to what was committed to the Stakeholders.",
+      "False."
+    ],
+    "correct": 5
+  },
+  {
+    "question": "Who owns the Sprint Backlog? (choose the best answer)",
+    "answers": [
+      "The Scrum Team.",
+      "The Scrum Master.",
+      "The Developers.",
+      "The Product Owner."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When is implementation of a Product Backlog Item considered complete? (choose the best answer)",
+    "answers": [
+      "When the item has no work remaining in order to be potentially released.",
+      "When Quality Assurance reports that the item passes all Acceptance Criteria.",
+      "At the end of the Sprint.",
+      "When all work in the Sprint Backlog related to the item is finished."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which two of the following are true about the Scrum Master role? (choose the best two answers)",
+    "answers": [
+      "The Scrum Master teaches the Developers to keep the Scrum meetings\u00a0to their time-box.",
+      "The Scrum Master is responsible for updating the Sprint Burndown.",
+      "The Scrum Master assigns tasks to Developers when they\u00a0need work.",
+      "The Scrum Master helps those outside the team interact with the Scrum Team.",
+      "At the Sprint Review, the Scrum Master identifies what has been \"Done\" and what has not been \"Done\"."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "Which two of the following are appropriate topics for discussion during a Sprint Retrospective? (choose the best two answers)",
+    "answers": [
+      "Documenting Acceptance Criteria for items in the next Sprint.",
+      "The order of items in the Product Backlog.",
+      "Identifying high priority process improvements for the next Sprint.",
+      "How the team collaborates."
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "True or False:\u00a0Multiple Scrum Teams working on the same project must have the same Sprint start date.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When is it most appropriate for a Scrum Team to change the Definition of Done? (choose the best answer)",
+    "answers": [
+      "During Sprint Planning.",
+      "Prior to starting a new project.",
+      "Prior to starting a new Sprint.",
+      "During the Sprint Retrospective."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "The Product Owner is not collaborating with the Developers during the Sprint. What are\u00a0two valuable actions for a Scrum Master to take? (choose the best two answers)",
+    "answers": [
+      "Nominate a proxy Product Owner.",
+      "Coach the Product Owner in the values of Scrum and incremental delivery.",
+      "Stop the Sprint, send the Product Owner to a course and restart.",
+      "Inform the Product Owner's functional manager.",
+      "Bring up the problem in the Sprint Retrospective."
+    ],
+    "correct": [
+      1,
+      4
+    ]
+  },
+  {
+    "question": "A Scrum Master is working with the Developers that has members in different physical locations. The Developers meets in a variety of meeting rooms and has much to do\u00a0logistically (for example, set up conference calls) before the Daily Scrum. What action should the\u00a0Scrum Master take? (choose the best answer)",
+    "answers": [
+      "Ask the Developers to alternate who is responsible for meeting\u00a0setup.",
+      "Set up the meeting and tell the Developers that is how it will be done.",
+      "Inform Management and ask them to solve it.",
+      "Allow the Developers to self-manage and determine for itself what to do."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Five new Scrum Teams have been created to build one Product. A few of the Developers on one of\u00a0the Developers ask the Scrum Master how to coordinate their work with the other teams.\u00a0What should the Scrum Master do?",
+    "answers": [
+      "Teach the Product Owner to work with the Lead Developers on ordering Product Backlog in a way to avoid too much technical and development overlap during a\u00a0Sprint.",
+      "Collect the Sprint tasks from the teams at the end of their Sprint Planning and merge that into a consolidated plan for the entire Sprint.",
+      "Teach them that it is their responsibility to work with the other teams to create an\u00a0integrated Increment.",
+      "Visit the five teams each day to inspect that their Sprint Backlogs are aligned."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "True or False:\u00a0Scrum is a methodology that tells in detail how to build Software incrementally.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In the Sprint Planning meeting, the Product Owner and the Developers were unable to reach a clear understanding about the highest order Product Backlog Items. Because of this, the Developers couldn't figure out how many Product Backlog Items it could forecast for the upcoming Sprint. They were able to agree on a Sprint Goal, however. Which of the following two actions should the Scrum Master support?\u00a0(choose the best two answers)",
+    "answers": [
+      "Ask everyone to take as much time as needed to analyze the Product Backlog\u00a0first, and then reconvene another Sprint Planning meeting.",
+      "Cancel the Sprint. Send the entire team to an advanced Scrum training and then\u00a0start a new Sprint.",
+      "Forecast the most likely Product Backlog Items to meet the goal and create a Sprint Backlog based on a likely initial design and plan. Once the time-box for\u00a0the Sprint Planning meeting is over, start the Sprint and continue to analyze,\u00a0decompose, and create additional functionality during the Sprint.",
+      "Continue the Sprint Planning meeting past its time-box until an adequate number\u00a0of Product Backlog Items are well enough understood for the Developers\u00a0to make a complete forecast. Then start the Sprint.",
+      "Discuss in the upcoming Sprint Retrospective why this happened and what\u00a0changes will make it less likely to recur."
+    ],
+    "correct": [
+      2,
+      4
+    ]
+  },
+  {
+    "question": "A member of the Developers takes the Scrum Master aside to express his concerns about\u00a0data security issues. What should the Scrum Master do? (choose the best answer)",
+    "answers": [
+      "Create a Product Backlog Item for security.",
+      "Ask the person to share the issue with the team as soon as possible.",
+      "Add security to the Definition of Done.",
+      "Tell the Product Owner to stop further development of features until the issues\u00a0are fixed.",
+      "Go check with the Testers."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are two ways that architecture and infrastructure are handled in Scrum? (choose the best two answers)",
+    "answers": [
+      "They are implemented along with functional development of the Product.",
+      "They are built by a separate team through the creation of an architectural runway.",
+      "They are added to the Product Backlog and addressed in early Sprints, while\u00a0always requiring at least some business functionality, no matter how small.",
+      "They are discussed, determined, and documented before the actual feature\u00a0development Sprints."
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "What are three ways Scrum promotes self-management? (choose three)",
+    "answers": [
+      "By preventing Stakeholders from entering the development room.",
+      "By removing titles for the Developers.",
+      "By not allowing documentation.",
+      "By being a lightweight framework.",
+      "By the Developers deciding what work to do in a Sprint."
+    ],
+    "correct": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "True or False: Cross-functional teams are optimized to work on one technical layer of a system only (e.g. GUI, database, middle tier, interfaces).",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What are three benefits of self-management? (choose three)",
+    "answers": [
+      "Increased accuracy of estimates.",
+      "Increased rule compliance.",
+      "Increased self-accountability.",
+      "Increased creativity.",
+      "Increased commitment."
+    ],
+    "correct": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "Why does a Scrum Team need a Sprint Goal?",
+    "answers": [
+      "A Sprint Goal ensures that all of the Product Backlog Items selected for the Sprint are implemented.",
+      "The Scrum Team is more focused with a common yet specific goal.",
+      "Sprint Goals are not valuable. Everything is known from the Product Backlog.",
+      "A Sprint Goal only gives purpose to Sprint 0."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How should Product Backlog Items be chosen when multiple Scrum Teams work from the same Product Backlog?",
+    "answers": [
+      "The Product Owner should provide each team with its own Product Backlog.",
+      "The Developers pull in work in agreement with the Product Owner.",
+      "Each Scrum Team takes an equal numbers of items.",
+      "The Scrum Team with the highest velocity pulls Product Backlog Items first.",
+      "The Product Owner decides."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following describe Test Driven Development? (choose two answers)",
+    "answers": [
+      "A Software Development technique based on automated tests.",
+      "A predictable way to develop working, well-organized code.",
+      "Having Testers in the development process.",
+      "An Increment and emergent approach to Software Design.",
+      "Creating a manual test script before writing code."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "When a Continuous Integration build fails, who ideally ensures the build is repaired? (choose the best answer)",
+    "answers": [
+      "The person who broke the build.",
+      "The next person who needs the build to complete successfully.",
+      "The person assigned to the configuration management role within the team.",
+      "The Tester responsible for validating builds.",
+      "Whoever the Developers agree should fix it."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "What happens during Sprint 0? (choose the best answer)",
+    "answers": [
+      "Establish base System Architecture and design, install version control and continuous integration setup.",
+      "There is no such thing as Sprint 0.",
+      "Base System Architecture and design.",
+      "Overall planning, base System Architecture, base design, version control and continuous integration setup.",
+      "Requirements gathering, version control setup, and continuous integration setup."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Product Backlog Items are refined by: (choose the best answer)",
+    "answers": [
+      "The Developers.",
+      "The Product Owner.",
+      "The Scrum Team.",
+      "The Business Analyst and the Product Owner."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Who is responsible for the System Architecture of a Product being developed using Scrum? (choose the best answer)",
+    "answers": [
+      "The Architect chosen by the Scrum Team.",
+      "The Developers.",
+      "The Software Architect.",
+      "The Corporate Architect."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following are attributes of a bad bug report? (choose the best three answers)",
+    "answers": [
+      "Simple and repeatable reproduction steps.",
+      "Vague statements or untested assumptions.",
+      "Generic titles.",
+      "One bug per report.",
+      "Assigning blame."
+    ],
+    "correct": [
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "question": "Who writes tests in a Scrum Team? (choose the best answer)",
+    "answers": [
+      "The Developers.",
+      "Coders.",
+      "The Scrum Master.",
+      "Quality Assurance Specialists."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "When Developers are having trouble delivering an Increment because they do not understand a functional requirement, what should they do?",
+    "answers": [
+      "Partially complete the functionality, and discuss the remaining work at the Sprint Review.",
+      "Add a specialist to the Scrum Team.",
+      "Collaborate with the Product Owner to determine what is possible and acceptable.",
+      "Defer the work to a more appropriate Sprint."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Who should be present during Product Backlog Refinement? (choose the best answer)",
+    "answers": [
+      "The integration architects from the release department.",
+      "Only the most senior Developers.",
+      "Anyone that the Scrum Team decides will be valuable during Refinement.",
+      "The Stakeholders.",
+      "The external Business Analysts that have prepared the functional details."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "True or False: Programmers and Testers should not be included in refining Product Backlog Items.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Why are automated builds important? (choose the best answer)",
+    "answers": [
+      "Without them you cannot tell if your code works.",
+      "You are unable to check-in code without one.",
+      "They are part of your done criteria.",
+      "They provide rapid assurance that defects and configuration management issues have not been introduced."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Upon what type of process control is Scrum based? (choose the best answer)",
+    "answers": [
+      "Defined.",
+      "Empirical.",
+      "Complex.",
+      "Hybrid."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When might a Sprint be abnormally cancelled? (choose the best answer)",
+    "answers": [
+      "When the Sprint Goal becomes obsolete.",
+      "When the sales department has an important new opportunity.",
+      "When the Developers feel that the work is too hard.",
+      "When it becomes clear that not everything will be finished by the end of the Sprint."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Who should know the most about the progress toward a business objective or a release, and be able to explain the alternatives most clearly? (choose the best answer)",
+    "answers": [
+      "The Scrum Master.",
+      "The Project Manager.",
+      "The Product Owner.",
+      "The Developers."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When many Scrum Teams are working on a single Product, what best describes the Definition of Done? (choose the best answer)",
+    "answers": [
+      "Each Scrum Team defines and uses its own. The differences are discussed and reconciled during a"
+    ],
+    "correct": []
+  },
+  {
+    "question": "During a Sprint, a Developer determines that the Scrum Team will not be able to complete the items in their forecast. Who should be present to review and adjust the Product Backlog Items selected? (choose the best answer)",
+    "answers": [
+      "The Product Owner and the Developers.",
+      "The Scrum Master, the Project Manager, and the Developers.",
+      "The Product Owner and all Stakeholders.",
+      "The Developers."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "When should the Developers on a Scrum Team be replaced? (choose the best answer)",
+    "answers": [
+      "As needed, with no special allowance for changes in productivity.",
+      "Never, it reduces productivity.",
+      "As needed, while taking into account a short-term reduction in productivity.",
+      "Every Sprint to promote shared learning."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When is a Sprint over? (choose the best answer)",
+    "answers": [
+      "When all Product Backlog Items meet their Definition of Done.",
+      "When the timebox expires.",
+      "When the Product Owner says it is done.",
+      "When all the tasks are completed."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When does the next Sprint begin? (choose the best answer)",
+    "answers": [
+      "Immediately following the next Sprint Planning.",
+      "Immediately after the conclusion of the previous Sprint.",
+      "When the Product Owner is ready.",
+      "Next Monday."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does it mean to say that an event has a timebox? (choose the best answer)",
+    "answers": [
+      "The event must happen at a set time.",
+      "The event can take no more than a maximum amount of time.",
+      "The event must happen by a given time.",
+      "The event must take at least a minimum amount of time."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Who is required to attend the Daily Scrum? (choose the best answer)",
+    "answers": [
+      "The Developers and Product Owner.",
+      "The Developers.",
+      "The Developers and Scrum Master.",
+      "The Scrum Master and Product Owner.",
+      "The Scrum Team."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When does a Developer become accountable for the value of a Product Backlog Item selected for the Sprint? (choose the best answer)",
+    "answers": [
+      "Whenever a team member can accommodate more work.",
+      "At the Sprint Planning Event.",
+      "During the Daily Scrum.",
+      "Never. The entire Scrum Team is accountable for creating value every Sprint."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Who is on the Scrum Team? (choose the best three answers)",
+    "answers": [
+      "Project Manager.",
+      "Developers.",
+      "The Product Owner.",
+      "The Scrum Master."
+    ],
+    "correct": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Which of the following are examples of a Scrum Team practicing Scrum poorly or not exhibiting traits of a self-managing Scrum Team? (choose the best three answers)",
+    "answers": [
+      "The Developers have all the skills they need to create a valuable, useful Increment.",
+      "Stakeholders attend the Daily Scrum to check on the Scrum Team's progress.",
+      "The Developers create their own Sprint Backlog, reflecting all work that is required to meet the Definition of Done.",
+      "The Developers are collaboratively selecting their own work during the Sprint.",
+      "The Developers invite external Stakeholders to the Sprint Planning to ask them how to turn a Product Backlog Item into an Increment via a complete and detailed Sprint Backlog.",
+      "The Developers are working within the boundaries of their organizations functional description and nicely handing off work from analyst to Developer to Tester to integration."
+    ],
+    "correct": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "question": "The timebox for the Sprint Review is: (choose the best answer)",
+    "answers": [
+      "As long as needed.",
+      "2 hours.",
+      "4 hours for a monthly Sprint. For shorter Sprints it is usually shorter.",
+      "4 hours and longer as needed.",
+      "1 day."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The timebox for the Sprint Planning event is? (choose the best answer)",
+    "answers": [
+      "8 hours for a monthly Sprint. For shorter Sprints it is usually shorter.",
+      "4 hours.",
+      "Whenever it is done.",
+      "Monthly."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "True or False: The purpose of a Sprint is to produce a valuable and useful Increment of working Product.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "An organization has decided to adopt Scrum, but Management wants to change the terminology to fit with terminology already used. What will likely happen if this is done? (choose the best answer)",
+    "answers": [
+      "Without a new vocabulary as a reminder of the change, very little change may actually happen.",
+      "The organization may not understand what has changed with Scrum and the benefits of Scrum may be lost.",
+      "Management may feel less anxious.",
+      "All of the above."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Who creates the Definition of Done? (choose the best answer)",
+    "answers": [
+      "The Scrum Team, in a collaborative effort where the result is the common denominator of all members' definitions.",
+      "The Scrum Master since they are responsible for the productivity of the Developers.",
+      "The Product Owner since they are responsible for the Product's success.",
+      "If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the Product."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Who is responsible for managing the progress of work during a Sprint? (choose the best answer)",
+    "answers": [
+      "The Developers.",
+      "The most junior member of the team.",
+      "The Scrum Master.",
+      "The Product Owner."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Who has the final say on the order of the Product Backlog? (choose the best answer)",
+    "answers": [
+      "The Product Owner.",
+      "The Stakeholders.",
+      "The Scrum Master.",
+      "The CEO.",
+      "The Developers."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which Scrum events are timeboxed? (choose the best three answers)",
+    "answers": [
+      "Release Retrospective.",
+      "Sprint Planning.",
+      "Sprint Testing.",
+      "Refinement.",
+      "Sprint Retrospective.",
+      "Sprint Review.",
+      "Release Testing."
+    ],
+    "correct": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "question": "A Scrum Team consists of the following: (choose the best three answers)",
+    "answers": [
+      "Product Owner.",
+      "Scrum Master.",
+      "Customers.",
+      "Users.",
+      "Developers."
+    ],
+    "correct": [
+      0,
+      1,
+      4
+    ]
+  },
+  {
+    "question": "When does a Developer become the sole owner of a Sprint Backlog item? (choose the best answer)",
+    "answers": [
+      "Whenever a team member can accommodate more work.",
+      "During the Daily Scrum.",
+      "At the Sprint Planning event.",
+      "Never. All Sprint Backlog items are \"owned\" by the Developers on the Scrum Team even though each item may be implemented by an individual Developer."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is the role of Management in Scrum? (choose the best answer)",
+    "answers": [
+      "Support the Product Owner with insights and information into high value Product and system capabilities. Support the Scrum Master to cause organizational change that fosters empiricism, self-management, bottom-up intelligence, and intelligent Product delivery.",
+      "Continually monitor staffing levels of the Scrum Team.",
+      "Monitor the progress of the Developers on the Scrum Team.",
+      "Identify and remove people that are not working hard enough."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Why is the Daily Scrum held at the same time and same place? (choose the best answer)",
+    "answers": [
+      "The consistency reduces complexity.",
+      "The place can be named.",
+      "The Product Owner demands it.",
+      "Rooms are hard to book and this lets it be booked in advance."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The length of a Sprint should be: (choose the best answer)",
+    "answers": [
+      "Short enough to keep the business risk acceptable to the Product Owner.",
+      "Short enough to be able to synchronize the development work with other business events.",
+      "One month or less.",
+      "All of the above."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "How much work must the Developers complete for each Product Backlog Item they select for a Sprint? (choose the best answer)",
+    "answers": [
+      "Enough so that each Product Backlog Item they select meets the Definition of Done.",
+      "Analysis, design, programming, testing and documentation.",
+      "As much as it can fit into the Sprint.",
+      "All development work and at least some testing."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The CEO asks the Developers to add a \"very important\" item to a Sprint that is in progress. What should the Developers do? (choose the best answer)",
+    "answers": [
+      "Add the item to the current Sprint and drop an item of equal size.",
+      "Inform the other members of the Scrum Team so the team can decide what to do.",
+      "Add the item to the next Sprint.",
+      "Add the item to the current Sprint without any adjustments."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the recommended size for a Scrum Team? (choose the best answer)",
+    "answers": [
+      "Minimum of 7.",
+      "9.",
+      "Typically 10 or fewer people.",
+      "7 plus or minus 2."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which statement best describes a Product Owner's responsibility? (choose the best answer)",
+    "answers": [
+      "Keep Stakeholders from distracting the Developers.",
+      "Optimizing the value of the work the Scrum Team does.",
+      "Managing the project and ensuring that the work meets the commitments to the Stakeholders.",
+      "Directing the Developers."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "True or False: 100% Code Coverage of tests guarantees bug-free Software.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Who is responsible for monitoring the progress of work during a Sprint? Pick 1",
+    "answers": [
+      "Product Owner.",
+      "Project Manager.",
+      "Scrum Master.",
+      "Developers."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Who can tell the Developers what to work on?",
+    "answers": [
+      "The Product Owner.",
+      "The COO, CEO and CTO.",
+      "The Project Manager.",
+      "The Scrum Master."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Who can do the work to ensure the Product Backlog is refined to a state that it is useful? Pick 2",
+    "answers": [
+      "The Product Owner.",
+      "The Business Analyst.",
+      "Stakeholders.",
+      "The Developers, with support from the Product Owner who is still accountable for it."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "SCRUM stands for:",
+    "answers": [
+      "Super Creative Really Useful Method.",
+      "Self Organising Collaborative & Reflective Universal Method.",
+      "Safe Controlled Response Under Management.",
+      "Nothing. Its not an acronym."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Who manages the Sprint Backlog?",
+    "answers": [
+      "The Scrum Master.",
+      "The Product Owner.",
+      "The Developers.",
+      "The Scrum Team."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which statement best describes a cross-functional team? Pick 1",
+    "answers": [
+      "The team has a good mix of skills.",
+      "All members of the team have all the skills required to create the Product.",
+      "The team has all competencies needed to accomplish the work."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Bugs discovered out of Sprint should be:",
+    "answers": [
+      "Investigated and fixed immediately by the Developers.",
+      "Reviewed with the Product Owner and added to the Product Backlog."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When could a release to Production occur if a Scrum Team produced a Done increment multiple times each day? (select all that apply)",
+    "answers": [
+      "Mid Sprint.",
+      "Every Sprint.",
+      "Multiple times per day.",
+      "Every Day."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "True or False: The Definition of Done is a mandatory part of Scrum.",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Who may be best positioned to decide who will be the Scrum Master for a new Scrum Team?",
+    "answers": [
+      "The Developers.",
+      "The Product Owner.",
+      "The Developers and the Product Owner.",
+      "Stakeholders."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "True or False: A Scrum Team must be 10 or fewer people.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Continuous Integration (CI) provides the following advantages: (select all that apply)",
+    "answers": [
+      "Less back-tracking to discover where things went wrong, so you can spend more time building features.",
+      "Allows teams to detect problems early.",
+      "Automatically eliminates all integration issues.",
+      "Stop waiting to find out if your code's going to work."
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "Sizing is best when: (select all that apply)",
+    "answers": [
+      "It is done by the actual Developers who will carry out the work.",
+      "It is done by a group, rather than an individual.",
+      "Estimates are made relative to similar things.",
+      "It is done by the Lead Developer alone."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Select the correct timebox for each Scrum event.",
+    "answers": [
+      "Sprint Planning - 8 hours or less, Daily Scrum - 30 minutes or less, Sprint Review - 4 hours or less, Sprint Retrospective - 3 hours or less.",
+      "Sprint Planning - 4 hours or less, Daily Scrum - 15 minutes or less, Sprint Review - 8 hours or less, Sprint Retrospective - 4 hours or less.",
+      "Sprint Planning - 4 hours or less, Daily Scrum - 15 minutes or less, Sprint Review - 4 hours or less, Sprint Retrospective - 4 hours or less.",
+      "Sprint Planning - 8 hours or less, Daily Scrum - 15 minutes or less, Sprint Review - 4 hours or less, Sprint Retrospective - 3 hours or less."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "True or False: Planning Poker must be used by Scrum Teams.",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is Test Driven Development?",
+    "answers": [
+      "Appointing the QA Tester as the Lead Developer.",
+      "The practice of writing Unit Tests prior to writing the implementation code.",
+      "Integrating Testers and Developers.",
+      "The process of motivating Testers."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "True or False: Tasks in a Sprint Backlog must be estimated in days/hours.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Who is responsible for testing in Scrum?",
+    "answers": [
+      "The Product Owner.",
+      "The Developers.",
+      "Stakeholders.",
+      "The Scrum Master."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Bugs discovered in Sprint should be:",
+    "answers": [
+      "Fixed immediately.",
+      "Ignored if not created by me.",
+      "Send to the Junior Developer to fix.",
+      "Added to the bug tracking repository and left for a later Sprint."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "True or False: YAGNI states that most systems work best if they are kept simple rather than made complicated.",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which one is a Scrum Value? (pick all that apply)",
+    "answers": [
+      "Focus.",
+      "Commitment.",
+      "Courage.",
+      "Creativity.",
+      "Accountability."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "What is NOT the name of the original program in source control from which branches are taken?",
+    "answers": [
+      "Mainline.",
+      "Feature.",
+      "Trunk.",
+      "Master."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the Static Analysis?",
+    "answers": [
+      "Analysis performed on code in a non-runtime environment.",
+      "Analysis performed on Software at runtime.",
+      "Duties of a Business Analyst.",
+      "Checking static classes' readability."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which one is true about Black-box testing? (pick all that apply)",
+    "answers": [
+      "Tester can see inside the component or system under test.",
+      "Tests that are done can be either functional or non-functional.",
+      "The internal structure of the item being tested is known to the Tester.",
+      "Tester cannot see inside the component or system under test.",
+      "The internal structure of the item being tested is not known to the Tester."
+    ],
+    "correct": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "Which expression is NOT used for KISS principle?",
+    "answers": [
+      "Keep it simple, silly.",
+      "Keep it safe and same.",
+      "Keep it small and simple.",
+      "Keep it simple stupid."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What shapes can be an Architecture Spike? (pick all that apply)",
+    "answers": [
+      "A prototype which will be thrown away.",
+      "A comprehensive architecture implementation.",
+      "A quick and dirty implementation.",
+      "A plan for all required architectures of the Product."
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "What does cross-functionality mean in a Scrum Team?",
+    "answers": [
+      "Each Developer who has a special skill and works with all Scrum Teams of the organization is cross-functional.",
+      "The Developers should collaborate with all other functional departments of the organization.",
+      "The Developers should have all required skills to create potentially releasable Increments without any dependency to others outside the team.",
+      "Each Developers member should have all required skills to create potentially releasable Increments without any dependency to others outside the team."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the proper reaction of the Developers in the middle of the Sprint when they found they have over committed?",
+    "answers": [
+      "They should ask the Product Owner to cancel the Sprint.",
+      "They extend the Sprint duration.",
+      "They can add new team members to the team.",
+      "They negotiate with the Product Owner about the scope of the Sprint Backlog Items."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is the Sprint Planning time-box for two-week Sprints?",
+    "answers": [
+      "Usually 2 hours.",
+      "Usually 8 hours.",
+      "Usually 6 hours.",
+      "Usually 4 hours."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which one is true?",
+    "answers": [
+      "There is no assignment for both Sprint Backlog elements.",
+      "The team can assign a task to a Team member with consensus.",
+      "The team should assign both Sprint Backlog elements.",
+      "The team assigns a Sprint Backlog Item to a Team member."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "True or False: Through Depth of Inheritance metric, a low number for depth implies less complexity but also the possibility of less code reuse through inheritance.",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Who is responsible for writing tests in a Scrum Team?",
+    "answers": [
+      "The Developers.",
+      "The programmer.",
+      "The QA specialist.",
+      "The Tester."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Who are the participants of the Daily Scrum?",
+    "answers": [
+      "The Developers and the Scrum Master.",
+      "The Developers and the Product Owner.",
+      "The Scrum Team.",
+      "The Developers."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which concept has interactive attribute?",
+    "answers": [
+      "Sketch.",
+      "Mockup.",
+      "Wireframe.",
+      "Prototype."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Who is responsible for the documentation?",
+    "answers": [
+      "Developers.",
+      "Tech Lead.",
+      "Document Writer.",
+      "Scrum Master."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "True or False: Afferent Coupling measures the number of classes on which a given class depends.",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which concerns are most important in the scaled Scrum? Pick 2",
+    "answers": [
+      "Minimizing or removing dependencies between teams.",
+      "Creating an integrated releasable Increment at the end of each Sprint.",
+      "Having same Sprint duration for all teams.",
+      "Increasing all team members utilization."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "Who makes the decision for the architecture in a Scrum Team?",
+    "answers": [
+      "Tech Lead.",
+      "Developers.",
+      "Chief Architect.",
+      "CTO (Chief Technology Officer).",
+      "Scrum Master."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How much time does the Product Owner should consume for the Product Backlog Refinement?",
+    "answers": [
+      "No more than 10%.",
+      "No more than 20%.",
+      "It is not the Product Owner responsibility.",
+      "Any time that the Product Owner needs."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which one is a Scrum Team role? (pick all that apply)",
+    "answers": [
+      "The Product Owner.",
+      "The Project Manager.",
+      "The Scrum Master.",
+      "The Developers."
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Which one is NOT a Test Double?",
+    "answers": [
+      "Two combined Unit Tests.",
+      "Test Spy.",
+      "Test Stub.",
+      "Mock Object."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which is true about Refactoring?",
+    "answers": [
+      "Through it internal structure of code is altered.",
+      "Its results are improved maintainability, code readability and reduced complexity.",
+      "There should be special and distinct Sprints called \u201cRefactoring Sprint\u201d to do Refactoring with focus every a few Sprints.",
+      "Through it external behavior of code is altered."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "When the Product Owner can see the Developers work?",
+    "answers": [
+      "Just at the Sprint Review.",
+      "Whenever the Developers are ready.",
+      "Anytime the Product Owner asks.",
+      "When the Tech Lead allows the Developers to show their work."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What are the most important things for increasing transparency?",
+    "answers": [
+      "Using chat tools to have the best communication.",
+      "Having a Definition of Done.",
+      "Having a common language.",
+      "Having a comprehensive documentation."
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "What is the ATDD?",
+    "answers": [
+      "Using Acceptance Tests to define requirements specified by the customer and market.",
+      "Using advanced Integration Test to develop quality Product.",
+      "Using approved tests by Product Owner in TDD.",
+      "Using Unit Tests to define requirements specified by the customer and market."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In Software Development, which acronym is NOT true?",
+    "answers": [
+      "LOC: Lines of Code.",
+      "CBO: Coupling Between Objects.",
+      "DIT: Depth of Inheritance Tree.",
+      "SLOC: Sample Lines of Code."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Where does Smoke testing originate from?",
+    "answers": [
+      "Comes from a comprehensive type of hardware testing in which a device passes the test if it does not catch fire during a sample long time run.",
+      "Comes from a basic type of hardware testing in which a device passes the test if it does not catch fire during a sample long time run.",
+      "Comes from a basic type of hardware testing in which a device passes the test if it does not catch fire the first time it turns on.",
+      "Comes from a comprehensive type of hardware testing in which a device passes the test if it does not catch fire the first time it turns on."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the goal of the Continuous Integration?",
+    "answers": [
+      "To publish the Product Increment on Production.",
+      "To penalize the Developer who breaks the build.",
+      "To provide rapid feedback of build and test result.",
+      "To find who has made the change on source control."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What kind of activity can be done in the Product Backlog Refinement?",
+    "answers": [
+      "Adding detail to the items.",
+      "Ordering.",
+      "Design.",
+      "Develop."
+    ],
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "question": "What is the recommended size of the Scrum Team?",
+    "answers": [
+      "10 or fewer people.",
+      "5 \u00b1 4.",
+      "6 \u00b1 3.",
+      "9 \u00b1 3."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What are the duties of the Developers in a Scrum Team?",
+    "answers": [
+      "Removing impediments.",
+      "Making technical decisions.",
+      "Resolving team internal conflicts.",
+      "Assigning value to the Product Backlog Items."
+    ],
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "question": "Which one is true about the scaled Scrum? Pick 2",
+    "answers": [
+      "The scaled Scrum does not add or change anything in Scrum framework.",
+      "It is based on the Scrum framework.",
+      "It uses Scrum parts as its building blocks.",
+      "Through scaled Scrum Teams work on multiple Products."
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Which factors should be considered to determine the Sprint length? (pick all that apply)",
+    "answers": [
+      "Market change speed.",
+      "Raising complexity speed.",
+      "Amount of the risk.",
+      "Cost of risk."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "True or False: One of the outcomes of using TDD is creating an automated Regression Test suite.",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which work can be done between two Sprints?",
+    "answers": [
+      "Nothing. There is no special time between two Sprints.",
+      "Resolving some important bugs.",
+      "Preparing Product Backlog Items for the next Sprint.",
+      "Thinking about architectural concerns of the next Sprint."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "How often does the Sprint Planning should be conducted?",
+    "answers": [
+      "Once a Release.",
+      "Each time that the Product Owner decides.",
+      "In the middle of each Sprint.",
+      "Once a Sprint."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "True or False: Creating a done and potentially releasable Increment is the purpose of each Sprint.",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which is NOT true about Lines of Code metric?",
+    "answers": [
+      "A high count might indicate that a type or method is doing too much work.",
+      "A high count might be a warning that code will be hard to maintain.",
+      "It isn't a Code Quality metric.",
+      "It is explained via percentage."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What does Code Coverage mean?",
+    "answers": [
+      "The degree of a source code which is executed or exercised by a test suite.",
+      "The number of Unit Tests which have passed through a test suite run.",
+      "The amount of codes which is covered in a source control.",
+      "The number of Unit Tests which have failed through a test suite run."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Who are responsible for monitoring the progress over the Project and Sprint?",
+    "answers": [
+      "Project Progress: the Product Owner, Sprint Progress: the Developers.",
+      "Project Progress: the Scrum Master, Sprint Progress: the Developers.",
+      "Project Progress: the Developers, Sprint Progress: the Product Owner.",
+      "Project Progress: the Product Owner, Sprint Progress: the Scrum Master."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which is true about Strategic Debt in Technical Debt context?",
+    "answers": [
+      "Debt caused to gain strategic benefits (such as time to market).",
+      "This is typically caused by lack of awareness or knowledge.",
+      "Short-time gains, for instance cutting some corners to make an extra release for increased customer satisfaction."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which one is a code metric? (pick all that apply)",
+    "answers": [
+      "Code Coverage.",
+      "Lines of Code.",
+      "Automated Build.",
+      "Test Doubles.",
+      "Class Coupling."
+    ],
+    "correct": [
+      1,
+      4
+    ]
+  },
+  {
+    "question": "What are the outputs of the Sprint Planning?",
+    "answers": [
+      "The Increment.",
+      "The Release Plan.",
+      "The Sprint Backlog.",
+      "The Sprint Goal."
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "True or False: Dependency Inversion principle implies that entities must depend on abstractions not on concretions.",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will happen for the undone Sprint Backlog Items at the end of the Sprint?",
+    "answers": [
+      "Extend the Sprint to finish them.",
+      "Move back to the bottom of the Product Backlog.",
+      "Re-estimate and move back to the Product Backlog.",
+      "Directly move to the next Sprint."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What the Developers should do when the CEO assign them an unplanned work in the middle of the Sprint?",
+    "answers": [
+      "Inform the Scrum Master to work with his/her.",
+      "Reject it because they are independent.",
+      "Accept it because the CEO is the highest rank in the organization.",
+      "Inform the Product Owner to work with his/her."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "When the Developers can change their practices, tools or techniques?",
+    "answers": [
+      "Whenever needed.",
+      "At the end of each release.",
+      "At the beginning of the project.",
+      "At the end of each Sprint."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "How many Definition of Done should be used in scaled Scrum?",
+    "answers": [
+      "They can have a separate Definition of Done for each team as long as they do not violate each other.",
+      "Each team should have a separated Definition of Done.",
+      "All teams should have one Definition of Done.",
+      "All teams can have one common Definition of Done as long as they can create a unique integrated Increment."
+    ],
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Which two of the followings are synonyms of TDD?",
+    "answers": [
+      "Domain Driven Design.",
+      "Red-Green-Refactor.",
+      "Test First Development (TFD).",
+      "Continuous Deployment."
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "When tests should be added in the development process?",
+    "answers": [
+      "At the end of each release.",
+      "From the beginning of the project.",
+      "At the end each Sprint.",
+      "In special Sprints called \u201cTest Sprint\u201d."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which language is usually used in BDD?",
+    "answers": [
+      "Ubiquitous language.",
+      "Tongue language.",
+      "Technical language.",
+      "Native language."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which of the followings are characteristics of a good bug report? (pick all that apply)",
+    "answers": [
+      "Impacted related requirement.",
+      "Version and build of the Software under test.",
+      "The severity of the defect.",
+      "Expected results and observed results."
+    ],
+    "correct": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Who creates the Sprint Backlog?",
+    "answers": [
+      "The Scrum Master.",
+      "The Product Owner.",
+      "The Scrum Team.",
+      "The Developers."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "When is a feature done?",
+    "answers": [
+      "When it is potentially releasable and shippable.",
+      "When the Product Owner approves it.",
+      "When the customer accepts it.",
+      "When the Scrum Master approves it."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "True or False: The Developers have immediately resolved a bug, which is found in the current Sprint and belongs to an Increment that has already been delivered to the market. Is it a proper behavior?",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Why mock objects are used in Unit Tests? Pick 3",
+    "answers": [
+      "To simulate the behavior of a given object.",
+      "To isolate system under test for controlled testing.",
+      "To cope with dependencies.",
+      "TDD can be done just by having mock objects."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "What is the usual comparison of Product Backlog Items average size in the Product Backlog and Sprint Backlog?",
+    "answers": [
+      "Product Backlog Items in the Product Backlog are usually smaller than the Sprint Backlog.",
+      "Product Backlog Items in the Product Backlog are usually larger than the Sprint Backlog.",
+      "Product Backlog Items usually have the same size in both the Product Backlog and the Sprint Backlog.",
+      "Such a comparison does not make sense."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which is NOT true about Efferent Coupling?",
+    "answers": [
+      "Classes with high efferent will affect other classes when changes are made.",
+      "A large Efferent Coupling can indicate that a class is unfocused and may also indicate that it is unstable since it depends on the stability of all the types to which it is coupled.",
+      "Classes with high Efferent Coupling will receive the effects of changes or defects in other classes.",
+      "It is a Code Quality metric."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the instability index metric calculation formula? (Ca: Afferent Coupling, Ce: Efferent Coupling)",
+    "answers": [
+      "Ca / (Ca+Ce).",
+      "Ce / (Ca+Ce).",
+      "(Ca+Ce) / Ce.",
+      "(Ca+Ce) / Ca."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which is true about the Sprint Backlog?",
+    "answers": [
+      "It is a list of selected Product Backlog Items that the Developers have committed for the Sprint.",
+      "It contains all Product Backlog Items and requirements that could be implemented for the project.",
+      "It is created one Sprint ahead the current Sprint.",
+      "It is a plan for the Developers to realize the Sprint Goal."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which one is true about Definition of Done and Acceptance Criteria? (pick all that apply)",
+    "answers": [
+      "Acceptance Criteria should be passed for a feature in order to be called as complete and done.",
+      "Acceptance Criteria should be passed to ensure that a feature is working as expected.",
+      "Definition of Done should be applied to a feature in order to be called as complete.",
+      "There are many Acceptance Criteria in a Product.",
+      "There are many Definition of Done in a Product and a Scrum Team."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Which principle is included in SOLID? (pick all that apply)",
+    "answers": [
+      "Liskov Substitution Principle.",
+      "Dual Interface Principle.",
+      "Single Responsibility Principle.",
+      "Open-Closed Principle.",
+      "Interface Segregation Principle."
+    ],
+    "correct": [
+      0,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "question": "True or False: In an impediment case, the Scrum Master can intervene to help the Developers to remove a member from the Developers.",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which one is true about the Daily Scrum? Pick 3",
+    "answers": [
+      "It is a feedback loop.",
+      "All Scrum Team members should participate in it.",
+      "The Developers monitors Sprint progress toward the Sprint Goal.",
+      "It is a 15 minutes time-box event."
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "What are traits of a high performance Scrum Team? (pick all that apply)",
+    "answers": [
+      "They live the Scrum Values deeply.",
+      "They help their customers become more successful.",
+      "They evolve the Definition of Done over time and add more stringent criteria to it continuously.",
+      "There is a high level of creativity, productivity and accountability in the Team dynamics.",
+      "They respect top managers through accepting their work every time."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Who knows best about how to create usable and releasable Increments?",
+    "answers": [
+      "The Developers.",
+      "The Scrum Master.",
+      "The Technical Manager.",
+      "The Product Owner."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "True or False: Interface Segregation principle implies that a client should never be forced to implement an interface that it doesn't use.",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Who is responsible for the Product Backlog Items and tasks estimation in Scrum?",
+    "answers": [
+      "The Product Owner.",
+      "The Scrum Master.",
+      "The Project Manager.",
+      "The Developers."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "How do the Developers divide into multiple teams in scaled Scrum?",
+    "answers": [
+      "The top Management divides them.",
+      "The Developers divide themselves.",
+      "The Product Owner divides them.",
+      "The Scrum Master divides them."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What should the Developers do when there is no standard contract to create a releasable Product?",
+    "answers": [
+      "Ask the Product Owner to make a Definition of Done.",
+      "Ask Project Manager to help them.",
+      "Define a list of satisfactory tests for each PBI.",
+      "The Developers should define a Definition of Done."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "True or False: Through the Sprint Review, the Scrum Team tries to hand-off the Increment to the Customer formally.",
+    "answers": [
+      "False.",
+      "True."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which Scrum Values are adhered by not building Product Backlog Items that have low business value? Pick 3",
+    "answers": [
+      "Courage.",
+      "Respect.",
+      "Focus.",
+      "Transparency.",
+      "Adaptation."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Which one is true about Design Patterns?",
+    "answers": [
+      "Is a general, reusable solution to a commonly occurring problem within a given context in Software Design.",
+      "Is a low-fidelity UI pattern that can be called sketch.",
+      "Is a list of guidelines to design better UX for customers.",
+      "Is a high-fidelity UI pattern that can be called prototype."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which Scrum events can use more time rather than their time-box if there are 9 Developers (the maximum Developers size) in the Team?",
+    "answers": [
+      "The Daily Scrum.",
+      "The Sprint Retrospective.",
+      "No one.",
+      "The Sprint Review."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Product Backlog Items are refined by:",
+    "answers": [
+      "The Business Analyst and the Product Owner.",
+      "The Developers.",
+      "The Developers and the Product Owner.",
+      "The Product Owner solely."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Select the desirable characteristics of a Unit Test. (choose the best four answers)",
+    "answers": [
+      "Code in each test is as small as possible while maintaining readability of the code.",
+      "Each test is independent of other Unit Tests.",
+      "Each test makes assertions about only one logical concept.",
+      "The test executes fast.",
+      "They exercise the persistence layer of a solution."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Should User Stories be part of the documentation generated by a Scrum project?",
+    "answers": [
+      "Always.",
+      "If the Architect requires it.",
+      "If they are part of the Definition of Done.",
+      "Never.",
+      "They must be provided to the Developers as part of the user specifications documents."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The Definition of Done describes the work that must be completed for every Product Backlog Item before it can be deemed releasable. What should the Developers do when, during the Sprint, it finds out that a problem outside of their control blocks them from doing all this work?",
+    "answers": [
+      "Cancel the Sprint.",
+      "Complete the work that can be done on as much scope as possible and complete the rest during the \"hardening\" Sprints at the end of the release.",
+      "Complete the work that can be done on as much scope as possible and use the Sprint Review to plan the rest with the Stakeholders.",
+      "Immediately raise the issue to the Scrum Master as an impediment.",
+      "Stop using Scrum."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "To refine Product Backlog Items, the following activities will occur implicitly or explicitly: (choose all that apply)",
+    "answers": [
+      "Analysis.",
+      "Decomposition.",
+      "Design.",
+      "Programming.",
+      "Testing."
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "question": "True or False: Only technical writers can create documentation during a Sprint.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "True or False: The Scrum Team should choose at least one high priority process improvement, identified during the Sprint Retrospective, and place it in the Product Backlog.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are reasons to automate the Software build process? (choose the best two answers)",
+    "answers": [
+      "Automation improves the quality of Software by making builds less error-prone.",
+      "Code Reviews are much faster if you automate your build.",
+      "To get feedback on changes to the code early and often.",
+      "You can't run automated tests without an automated build."
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "What are some shortcomings of Code Coverage as a measurement for how well a system or Product is tested? (choose the best three answers)",
+    "answers": [
+      "Code Coverage does not ensure that the most important or highest risk areas of the code are being exercised by tests.",
+      "Code Coverage does not necessarily provide functional coverage.",
+      "Code Coverage metrics vary by development platform (e.g., .NET, Java).",
+      "Could create incentives to write tests that simply increase Code Coverage, rather than tests that find bugs without increasing coverage.",
+      "It is too complicated to explain to Management."
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "What are three advantages of Continuous Integration? (choose the best three answers)",
+    "answers": [
+      "Broken builds are detected quickly.",
+      "Know immediately how a check-in affected the build.",
+      "Readability of code is improved.",
+      "The Software is generally kept in a buildable state."
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "What are ways the Developers can ensure a good Application Architecture? (choose the best two answers)",
+    "answers": [
+      "The Developers don't need an architecture model in Scrum and should focus on adding functionality. The architecture will come into place without fail as the Developers adds functionality.",
+      "The Developers plans a Sprint 0 at the beginning of a project with the objective of developing an architecture model used during the following Sprints.",
+      "The Developers plans some time each Sprint to discuss the architecture needed for the features planned in that Sprint.",
+      "The Developers should assign someone to the role of Software Architect whose job it is to make sure a consistent architecture is developed.",
+      "The Developers should have a set of guiding architecture principles that every Developers member understands and follows when writing code."
+    ],
+    "correct": [
+      2,
+      4
+    ]
+  },
+  {
+    "question": "What does a test written with Test Driven Development represent?",
+    "answers": [
+      "A bug that will be uncovered.",
+      "A technical requirement that must be satisfied.",
+      "An assignment from the lead quality engineer.",
+      "Something that completes the test coverage of a system."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does Code Coverage show?",
+    "answers": [
+      "Code being exercised by tests.",
+      "The absence of defects in code.",
+      "The quality of Unit Tests being written.",
+      "The ratio of number of tests to lines of code in the system being tested.",
+      "When a feature is done."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is a Unit Test?",
+    "answers": [
+      "A technique for ensuring that units of co-dependent or clustered computers perform correctly.",
+      "A test that isolates and verifies individual units of source code.",
+      "A way for the team to ensure that the system satisfies the user requirements.",
+      "A way in which units of programmers ensure their code works."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is Code Coverage?",
+    "answers": [
+      "An insurance policy that covers the code for defects.",
+      "The degree to which the system under test has been exercised by tests.",
+      "The number of Developers that understand how the code works.",
+      "The percent of code in version control included in a build."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is NOT Test Driven Development?",
+    "answers": [
+      "A predictable way to develop working, clean code.",
+      "A Software Development technique based on automated tests.",
+      "An incremental and emergent approach to Software Design.",
+      "Testing existing Software before developing any new Software."
+    ],
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "question": "What is Pair Programming?",
+    "answers": [
+      "A Developer and a Tester work together to write and test code.",
+      "Managers doing performance reviews by comparing one programmer's code to another's.",
+      "The Scrum Team is divided into several two-person Developers groups that consolidate work in a Scrum of Scrums.",
+      "Two Developers writing code together, providing constant peer review.",
+      "Two programmers write code separately. A third programmer integrates the work."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is Technical Debt?",
+    "answers": [
+      "A term representing the eventual consequences of poor technical choices.",
+      "Code that has not been commented or documented.",
+      "The average time or money a Scrum Team spends per Sprint on bug fixes.",
+      "The money an organization owes to tool and hardware vendors."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the value of Refactoring code?",
+    "answers": [
+      "To have all code in a single file for easy printing and Code Reviews.",
+      "To improve readability and maintainability.",
+      "To keep the code moving.",
+      "To make the Software faster at runtime."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What relationship does Scrum have to technical practices?",
+    "answers": [
+      "All technical practices must be used to support Scrum.",
+      "Developers with excellent technical practices will likely be more successful.",
+      "Scrum requires specific technical practices or it isn't Scrum.",
+      "None."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When are Testers and quality experts ideally included in a project?",
+    "answers": [
+      "After Developer handoff.",
+      "After Sprint Review.",
+      "From the beginning and throughout all Sprints.",
+      "When the Product is feature complete."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When do the Developers participate in Product Backlog Refinement?",
+    "answers": [
+      "Anytime during the Sprint.",
+      "As Part 1 of the Sprint Planning meeting.",
+      "Never. It is the sole responsibility of the Product Owner to refine the Product Backlog.",
+      "Only during Refinement meetings planned by the Product Owner."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "When is a System's Architecture decided?",
+    "answers": [
+      "In the beginning of the project, during Sprint 0.",
+      "It is designed along with the vision, before the first Sprint.",
+      "Throughout the project, as understanding emerges and the Developers learns more about the project.",
+      "Whenever the assigned Architect can join the Developers."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which are attributes of a good bug report? (choose all that apply)",
+    "answers": [
+      "Build/version where bug was found.",
+      "Clear title and proper grammar in report.",
+      "Expected results and observed results.",
+      "One bug per report.",
+      "Screenshots or other pictures of bug in action when user interfaces are involved.",
+      "Simple and repeatable reproduction steps."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "question": "Which are potential benefits of Test Driven Development? (choose all that apply)",
+    "answers": [
+      "It causes you to construct a test harness that can be automated.",
+      "It improves quality and reduces bugs.",
+      "It promotes good design and separation of concerns.",
+      "It speeds the overall development process."
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Which describes the practice of expressing requirements as Acceptance Tests?",
+    "answers": [
+      "Acceptance Test Driven Development.",
+      "Object Driven Requirements Definition.",
+      "Quality Oriented Requirements Definition.",
+      "Regression Testing."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which is a benefit of establishing naming standards for code?",
+    "answers": [
+      "To communicate the name of the Developer that worked on the code.",
+      "To ensure that \"orphan functions\" are not created.",
+      "To make it easy to distinguish between different Software Products.",
+      "To make the code more readable."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following are benefits of Continuous Integration? (choose the best two answers)",
+    "answers": [
+      "Causes team members to consider each other's work and context.",
+      "It eliminates bugs completely.",
+      "It leads to higher transparency and rapid feedback to the team.",
+      "The build is executed once every night and at least once each weekend."
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "Which of the following are NOT metrics of Code Quality? (choose all that apply)",
+    "answers": [
+      "Class Coupling.",
+      "Code Coverage.",
+      "Cycle Time per Feature.",
+      "Cyclomatic Complexity.",
+      "Depth of Inheritance."
+    ],
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "question": "Which of the following best describes Continuous Integration?",
+    "answers": [
+      "A Software Development practice that continuously integrates feedback from users into Software Design.",
+      "A Software Development practice used by Integration Teams to create Best Practice branching and merging strategies.",
+      "A Software Development practice where members of the Developers all work on the same computer to ensure a common code base.",
+      "A Software Development practice where members of the Developers integrate and verify their work frequently, often multiple times each day, to detect integration errors as quickly as possible."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following describe an Architecture Spike?",
+    "answers": [
+      "A decision made by a Systems Architect to settle disagreement within the Developers.",
+      "A fundamental architectural problem found in an existing application.",
+      "A small development activity to learn about technical elements of a proposed solution.",
+      "The result of an exhaustive architectural planning effort."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which statement describes how often the build should be executed?",
+    "answers": [
+      "As often as possible, and certainly prior to the end of the Sprint.",
+      "Once per day.",
+      "Whenever new or changed code is checked into version control.",
+      "Whenever the Quality Assurance group becomes uncertain that the system works."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which statement describes Test First Development (TFD)?",
+    "answers": [
+      "Designing tests before satisfying them.",
+      "Having the Tester in the Developers write the test plans before coding.",
+      "Testing existing code before adding more code to it.",
+      "The continuous restructuring of Software to retain flexibility."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which statements describe why automated builds are important? (choose the best three answers)",
+    "answers": [
+      "They allow frequent validation of the unit of Software being worked on, ensuring it remains in a potentially shippable state.",
+      "The build process is clearly defined and scripted, making it easy consistent and repeatable.",
+      "They eliminate the need for Build Engineers.",
+      "They ensure your Product remains bug free.",
+      "They support continuous integration."
+    ],
+    "correct": [
+      0,
+      1,
+      4
+    ]
+  },
+  {
+    "question": "While changing Software, you find a bug in a previously delivered piece of functionality. What should you do?",
+    "answers": [
+      "Fix the bug.",
+      "Fix the bug if it is critical or easily fixed. Otherwise, put the new bug into the Product Backlog to be prioritized and fixed in an upcoming Sprint.",
+      "Revise the tests so that the bug no longer appears on the bug report.",
+      "Stub out the code that caused the bug so it no longer occurs."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Who is responsible for the System Architecture of a Product being developed using Scrum?",
+    "answers": [
+      "The Architect chosen by the Developers.",
+      "The Corporate Architect.",
+      "The Developers.",
+      "The Software Architect."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Who must be present at the Daily Scrum meeting?",
+    "answers": [
+      "Anyone who wants to attend.",
+      "No one is required, anyone who wishes to attend is welcome.",
+      "The Developers.",
+      "The entire Scrum Team.",
+      "The Scrum Master and the Developers."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Who should be present during Product Backlog Refinement? (choose all that apply)",
+    "answers": [
+      "Only the most senior people from the Developers.",
+      "The Developers.",
+      "The external Business Analysts that have prepared the functional details.",
+      "The integration architects from the release department.",
+      "The Product Owner.",
+      "The Stakeholders."
+    ],
+    "correct": [
+      1,
+      4
+    ]
+  },
+  {
+    "question": "You are on a Scrum Team that is enhancing an existing Product. Which is the LEAST useful piece of documentation you want to have at your disposal?",
+    "answers": [
+      "Acceptance Tests.",
+      "Detailed designs.",
+      "The full history of retrospective plans and lessons learned.",
+      "Well-structured and named code."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "True or False: Test Driven Development is a predictable way to develop working, well-organized code?",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "The Scrum Team should have all the skills needed to: (choose the best answer)",
+    "answers": [
+      "Do all of the development work, except for specialized testing that requires additional tools and environments.",
+      "Complete the project within the date and cost as calculated by the Product Owner.",
+      "Turn Product Backlog item into a valuable, useful Increment."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Who determines when it is appropriate to update the Sprint Backlog during a Sprint? (choose the best answer)",
+    "answers": [
+      "The Scrum Team.",
+      "The Project Manager.",
+      "The Product Owner.",
+      "The Developers."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is the Scrum Master responsible for during the Sprint Retrospective? (choose the best answer)",
+    "answers": [
+      "Summarizing and reporting the discussions to management.",
+      "Acting as a scribe to capture the Scrum Team's answers.",
+      "Participating as a Scrum Team member and facilitating as requested or needed.",
+      "Prioritizing the resulting action items."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The right time to refactor code using Test Driven Development is: (choose the best answer)",
+    "answers": [
+      "When I can see the \"debt\" building in the code.",
+      "When preparing legacy code for unit tests.",
+      "After the test passes.",
+      "After the test fails."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When should Product Backlog refinement occur? (choose the best answer)",
+    "answers": [
+      "Anytime the Scrum Team feels Product Backlog items require more precision.",
+      "Always prior to Sprint Planning.",
+      "Only during refinement meetings planned by the Product Owner.",
+      "Only during Sprint Planning."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Why is architectural layering important for emergent systems? (choose the best three answers)",
+    "answers": [
+      "Layering makes it easier to reuse functionality.",
+      "Layering assigns clear responsibilities to individual Developers.",
+      "Layering separates different logical concerns withing the system.",
+      "Layering increases maintainability of a system by isolating functional responsibilities."
+    ],
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Is it a good idea to follow each automated build with the execution of automated tests?",
+    "answers": [
+      "Yes. Code Coverage can be used to assess progress.",
+      "No. Automated tests should be executed when the implementation of a Product Backlog item is complete.",
+      "Yes. The tests may identify whether there are problems that the Developers should fix before proceeding.",
+      "No. It would take too much time."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is Pair Programming? (choose the best answer)",
+    "answers": [
+      "Developers that are able to write code both in the back-end and the front-end.",
+      "Two Developers working on the same problem, at the same computer (physically or virtually), at the same time.",
+      "Two persons working on the same Product Backlog item trying to get it one as soon as possible.",
+      "A Tester and a Developer working together to ensure high quality."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are the top three benefits of a good Definition of Done? (choose the best three answers)",
+    "answers": [
+      "Clear Communication of the Scrum Team's quality standards.",
+      "A fully valuable, useful Increment by the end of each Sprint.",
+      "An ongoing strategy or technique for steadily addressing Technical Debt.",
+      "Guidance on the specific patterns to be implemented in code.",
+      "A full description of all test steps."
+    ],
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "question": "Which best describes the practice of branching code in a version control system? (choose the best answer)",
+    "answers": [
+      "Tagging or labelling a particular codebase as ready for distribution.",
+      "Creating a duplicate of existing code, isolated from the original code.",
+      "Releasing a specific codebase into a production environment.",
+      "Combining two or more branches of code into a signe codebase."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Cyclomatic Complexity is a metric for: (choose the best answer)",
+    "answers": [
+      "Assessing if code is written in as few lines as possible.",
+      "A measurement for complexity based on the number of people involved.",
+      "Determining the number of unit tests required to ensure correctness.",
+      "Demonstrating code is well-structured and cleanly implemented.",
+      "Measuring branching structures and nesting levels in code."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "The Developers should have all the skills needed to: (choose the best answer)",
+    "answers": [
+      "Complete the project as estimated when the date and cost are committed to the Product Owner.",
+      "Turn the Product Backlog items they select into an Increment of useful and valuable product functionality.",
+      "Do all of the development work, except for specialized testing that requires additional tools and environments."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which statement best describes Scrum? (choose the best answer)",
+    "answers": [
+      "A framework for creating complex products in complex environments.",
+      "A defined and predictive process that conforms to the principles of Scientific Management.",
+      "A complete methodology that defines how to develop software.",
+      "A cookbook that defines best practices for software development."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The timebox for a Daily Scrum is? (choose the best answer)",
+    "answers": [
+      "15 minutes.",
+      "15 minutes for a 4-week sprint. For shorter Sprints it is usually shorter.",
+      "Two minutes per person.",
+      "4 hours.",
+      "The same time of day every day."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The Developers should not be interrupted during the Sprint and the Sprint Goal should remain intact. These are conditions that foster creativity, quality and productivity. Which one the following answers is FALSE?",
+    "answers": [
+      "The Developers may work with the Product Owner to add or remove work if they find themselves with more or less capacity than expected.",
+      "The Sprint Backlog is fully formulated in the Sprint Planning event and does not change during the Sprint.",
+      "As a decomposition of the selected Product Backlog items, the Sprint Backlog changes and may grow as the work emerges.",
+      "The Product Owner can help clarify or optimize the Sprint when asked by the Developers."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "The three pillars of empiricism are: (choose the best answer)",
+    "answers": [
+      "Respect For People, Kaizen, Eliminating Waste.",
+      "Planning, Inspection, Adaptation.",
+      "Planning, Demonstration, Retrospective.",
+      "Inspection, Transparency, Adaptation.",
+      "Transparency, Eliminating Waste, Kaizen."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is the typical size for a Scrum Team? (choose the best answer)",
+    "answers": [
+      "10 or fewer.",
+      "Minimum of 7.",
+      "7 plus or minus 2.",
+      "9."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the function or purpose of Management in Scrum? (choose the best answer)",
+    "answers": [
+      "Identify and remove people that are not working hard enough.",
+      "Monitor the progress of the Developers on the Scrum Team.",
+      "Support the Product Owner with insights and information into high value product and system capabilities. Support the Scrum Master to encourage organizational change that fosters empiricism, self-management, bottom-up intelligence, and intelligent product delivery.",
+      "Continually monitor staffing levels of the Scrum Team."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the main reason for the Scrum Master to be at the Daily Scrum? (choose the best answer)",
+    "answers": [
+      "To gather status and progress information to report to management.",
+      "To write down any changes to the Sprint Backlog, including adding new items, and tracking progress on the burn-down.",
+      "They do not have to be there; they only need to ensure the Developers have a Daily Scrum.",
+      "To make sure every team member answers the three questions."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which two things should the Scrum Team do during the first Sprint? (choose the best two answers)",
+    "answers": [
+      "Develop and deliver at least one piece of functionality.",
+      "Develop a plan for the rest of the release.",
+      "Deliver an Increment of useful and valuable product.",
+      "Determine the complete architecture and infrastructure for the product.",
+      "Create the complete Product Backlog to be developed in subsequent Sprints."
+    ],
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "question": "True or False: It is mandatory that the product Increment be released to production at the end of each Sprint.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When should a Developer on a Scrum Team be replaced? (choose the best answer)",
+    "answers": [
+      "As needed, with no special allowance for changes in productivity.",
+      "Every Sprint to promote shared learning.",
+      "As needed, while taking into account a short-term reduction in productivity.",
+      "Never, it reduces productivity."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Refactoring is: (choose the best answer)",
+    "answers": [
+      "Improving your code without breaking your unit tests.",
+      "Increasing the amount of code.",
+      "Multiplying the amount of code.",
+      "Reducing the amount of code."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Developers include which role(s)? (select all that apply)",
+    "answers": [
+      "Software Architects.",
+      "Business Analysts.",
+      "Testers.",
+      "No other roles. Developer is one of the 3 accountabilities in Scrum."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "True or False: The more code a Developer writes the better.",
+    "answers": [
+      "True.",
+      "False."
+    ],
+    "correct": 1
+  }
+]
