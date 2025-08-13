@@ -1,0 +1,132 @@
+.quiz {
+  max-width: 800px;
+  margin: 0 auto;
+
+  &--loading,
+  &--error {
+    text-align: center;
+    padding: 3rem;
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #7f8c8d;
+      font-size: 1.1rem;
+    }
+
+    button {
+      margin-top: 2rem;
+      padding: 0.75rem 2rem;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s ease;
+
+      &:hover {
+        background: #2980b9;
+      }
+    }
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  &__info {
+    flex: 1;
+  }
+
+  &__title {
+    margin: 0 0 1rem 0;
+    color: #2c3e50;
+    font-size: 1.5rem;
+  }
+
+  &__progress {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__progress-bar {
+    width: 100%;
+    height: 8px;
+    background: #ecf0f1;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  &__progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    transition: width 0.3s ease;
+  }
+
+  &__progress-text {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
+
+  &__score {
+    background: #f8f9fa;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  &__nav-btn {
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &--primary {
+      background: #3498db;
+      color: white;
+
+      &:hover:not(:disabled) {
+        background: #2980b9;
+        transform: translateY(-1px);
+      }
+    }
+
+    &--secondary {
+      background: #ecf0f1;
+      color: #2c3e50;
+
+      &:hover:not(:disabled) {
+        background: #d5dbdb;
+      }
+    }
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+  }
+}

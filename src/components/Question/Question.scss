@@ -1,0 +1,151 @@
+.question {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    flex: 1;
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-right: 1rem;
+  }
+
+  &__difficult-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    opacity: 0.6;
+
+    &:hover {
+      opacity: 1;
+      background: rgba(255, 193, 7, 0.1);
+    }
+  }
+
+  &__info {
+    margin-bottom: 1.5rem;
+  }
+
+  &__hint {
+    margin: 0;
+    color: #7f8c8d;
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+
+  &__answers {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__answer {
+    background: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 1rem;
+    line-height: 1.4;
+
+    &:hover:not(:disabled) {
+      border-color: #3498db;
+      background: #f0f8ff;
+    }
+
+    &--selected {
+      border-color: #3498db;
+      background: #e3f2fd;
+    }
+
+    &--correct {
+      border-color: #27ae60;
+      background: #d5f4e6;
+      color: #27ae60;
+    }
+
+    &--incorrect {
+      border-color: #e74c3c;
+      background: #fdeaea;
+      color: #e74c3c;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+
+  &__answer-text {
+    display: block;
+    width: 100%;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__submit-btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover:not(:disabled) {
+      background: #2980b9;
+      transform: translateY(-1px);
+    }
+
+    &:disabled {
+      background: #bdc3c7;
+      cursor: not-allowed;
+      transform: none;
+    }
+  }
+
+  &__result {
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    font-weight: 500;
+
+    &--correct {
+      background: #d5f4e6;
+      color: #27ae60;
+      border: 1px solid #27ae60;
+    }
+
+    &--incorrect {
+      background: #fdeaea;
+      color: #e74c3c;
+      border: 1px solid #e74c3c;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}

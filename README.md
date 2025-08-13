@@ -67,3 +67,19 @@ export default tseslint.config([
   },
 ])
 ```
+
+## BUG FIX crypto
+file: vite/dist/node/chunks/dep-CMEinpL-.js
+
+````js
+import { createHash } from "node:crypto";
+
+function getHash(text, length = 8) {
+	const h$2 = createHash("sha256")
+    .update(text)
+    .digest("hex")
+    .substring(0, length);
+  if (length <= 64) return h$2;
+  return h$2.padEnd(length, "_");
+}
+````
