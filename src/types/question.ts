@@ -1,3 +1,5 @@
+import type { QUIZ_MODES } from "../constants/quiz.const";
+
 export type Question = {
   id: string;
   question: string;
@@ -14,7 +16,7 @@ export type QuestionProgress = {
   lastAnswered?: Date;
 };
 
-export type QuizMode = 'all' | 'random' | 'difficult' | 'incorrect';
+export type QuizMode = typeof QUIZ_MODES[keyof typeof QUIZ_MODES];
 
 export type QuizSettings = {
   mode: QuizMode;

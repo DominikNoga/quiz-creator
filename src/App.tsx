@@ -6,21 +6,25 @@ import Quiz from './components/Quiz/Quiz';
 import Progress from './components/Progress/Progress';
 import Results from './components/Results/Results';
 import QuestionsContextProvider from './providers/QuestionsContextProvider/QuestionsContextProvider';
+import QuizContextProvider from './providers/QuizContextProvider/QuizContextProvider';
 
 function App() {
 
   return (
     <Router>
       <QuestionsContextProvider>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="quiz" element={<Quiz />} />
-            <Route path="progress" element={<Progress />} />
-            <Route path="results" element={<Results />} />
-          </Route>
-        </Routes>
+        <QuizContextProvider>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="quiz" element={<Quiz />} />
+              <Route path="progress" element={<Progress />} />
+              <Route path="results" element={<Results />} />
+            </Route>
+          </Routes>
+        </QuizContextProvider>
       </QuestionsContextProvider>
+
     </Router>
   )
 }
