@@ -3,7 +3,7 @@ import type { Question, QuestionProgress } from "../../types/question";
 import type { QuizStats } from "../../types/quiz";
 import QuestionsContext from "./QuestionsContext";
 import { useLocalStorage } from "../../hooks/useLocalStorage";
-import { generateQuestionId } from "../../utils/questionUtils";
+import { fetchQuestions } from "./QuestionsContextProvider.utils";
 
 type Props = {
   children: React.ReactNode;
@@ -12,49 +12,48 @@ type Props = {
 export default function QuestionsContextProvider({ children }: Props) {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [progress, setProgress] = useLocalStorage<QuestionProgress[]>('quiz-progress', []);
+  const [storedQuestions, setStoredQuestions] = useLocalStorage<Question[]>('questions', []);
 
   useEffect(() => {
-    fetch("/src/assets/psd_questions.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const questionsWithIds = data.map((q: Omit<Question, 'id'>) => ({
-          ...q,
-          id: generateQuestionId(),
-        }));
-        setQuestions(questionsWithIds);
-      })
-      .catch((err) => {
-        console.error("Failed to load questions:", err);
-        setQuestions([]);
-      });
+    const getQuestions = async () => {
+      const stored = storedQuestions;
+      if (stored.length > 0) {
+        setQuestions(stored);
+        return;
+      }
+      const fetchedQuestions = await fetchQuestions();
+      setQuestions(fetchedQuestions);
+      setStoredQuestions(fetchedQuestions);
+    };
+    getQuestions();
   }, []);
 
   const updateProgress = (questionId: string, status: 'correct' | 'incorrect' | 'difficult') => {
-  const now = new Date();
-  const existingIndex = progress.findIndex(p => p.questionId === questionId);
+    const now = new Date();
+    const existingIndex = progress.findIndex(p => p.questionId === questionId);
 
-  let updatedProgress: QuestionProgress[];
-  if (existingIndex >= 0) {
-    updatedProgress = [...progress];
-    updatedProgress[existingIndex] = {
-      ...updatedProgress[existingIndex],
-      status,
-      attempts: updatedProgress[existingIndex].attempts + 1,
-      lastAnswered: now,
-    };
-  } else {
-    updatedProgress = [
-      ...progress,
-      {
-        questionId,
+    let updatedProgress: QuestionProgress[];
+    if (existingIndex >= 0) {
+      updatedProgress = [...progress];
+      updatedProgress[existingIndex] = {
+        ...updatedProgress[existingIndex],
         status,
-        attempts: 1,
+        attempts: updatedProgress[existingIndex].attempts + 1,
         lastAnswered: now,
-      },
-    ];
-  }
-  setProgress(updatedProgress);
-};
+      };
+    } else {
+      updatedProgress = [
+        ...progress,
+        {
+          questionId,
+          status,
+          attempts: 1,
+          lastAnswered: now,
+        },
+      ];
+    }
+    setProgress(updatedProgress);
+  };
 
   const getQuizStats = (): QuizStats => {
     const totalQuestions = questions.length;
@@ -78,12 +77,12 @@ export default function QuestionsContextProvider({ children }: Props) {
     setProgress([]);
   };
   return (
-    <QuestionsContext.Provider value={{ 
-      questions, 
-      progress, 
-      updateProgress, 
-      getQuizStats, 
-      resetProgress 
+    <QuestionsContext.Provider value={{
+      questions,
+      progress,
+      updateProgress,
+      getQuizStats,
+      resetProgress
     }}>
       {children}
     </QuestionsContext.Provider>
