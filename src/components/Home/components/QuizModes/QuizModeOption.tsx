@@ -19,6 +19,12 @@ const QuizModeOption: React.FC<QuizModeOptionProps> = ({
 }) => {
   const { quizMode, setQuizMode } = useContext(QuizContext) as QuizContextType;
   const selectedMode = quizMode ?? QUIZ_MODES.ALL;
+  const getLabel = () => {
+    if (mode === QUIZ_MODES.LAST_QUIZ) {
+      return 'Continue Last Quiz';
+    }
+    return mode.charAt(0).toUpperCase() + mode.slice(1) + ' Questions';
+  }
 
   return (
     <div className="quiz-mode">
@@ -32,7 +38,7 @@ const QuizModeOption: React.FC<QuizModeOptionProps> = ({
           disabled={isDisabled}
         />
         <div className="quiz-mode__content">
-          <h3>{mode.charAt(0).toUpperCase() + mode.slice(1)} Questions</h3>
+          <h3>{getLabel()}</h3>
           <p>{description}</p>
           {children}
         </div>

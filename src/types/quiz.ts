@@ -1,3 +1,5 @@
+import type { Question, QuizMode } from "./question";
+
 export type QuizStats = {
   totalQuestions: number;
   answeredQuestions: number;
@@ -10,4 +12,11 @@ export type QuizStats = {
 export type Score = {
   correct: number;
   total: number;
+};
+
+export type QuizData = {
+  quizMode: QuizMode;
+  quizQuestions: Question[];
+  answeredQuestions: Set<number>;
+  score: Score;
 };

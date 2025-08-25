@@ -13,6 +13,10 @@ export type QuizContextType = {
   setAnsweredQuestions: (answered: Set<number>) => void;
   setScore: (score: Score) => void;
   setCount: (count: number) => void;
+  handleNextQuestion: () => void;
+  handlePreviousQuestion: () => void;
+  currentQuestionIndex: number;
+  lastQuizAvailable: boolean;
 }
 
 const QuizContext = createContext<QuizContextType | undefined>(undefined);

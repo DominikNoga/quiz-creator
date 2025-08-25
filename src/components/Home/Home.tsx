@@ -12,7 +12,6 @@ import { QUIZ_MODES } from '../../constants/quiz.const';
 export default function Home() {
   const { questions, getQuizStats } = useContext(QuestionsContext);
   const quizCtx = useContext(QuizContext);
-  const [questionCount, setQuestionCount] = useState<number>(10);
   const navigate = useNavigate();
   const stats = getQuizStats();
 
@@ -20,7 +19,7 @@ export default function Home() {
     if (!quizCtx) return;
     const params = new URLSearchParams({
       mode: quizCtx.quizMode,
-      ...(quizCtx.quizMode === QUIZ_MODES.RANDOM && { count: questionCount.toString() })
+      ...(quizCtx.quizMode === QUIZ_MODES.RANDOM && { count: (quizCtx.count || 10).toString() })
     });
     navigate(`/quiz?${params.toString()}`);
     quizCtx.setQuizQuestions();
@@ -47,6 +46,8 @@ export default function Home() {
         return stats.difficultQuestions === 0;
       case QUIZ_MODES.INCORRECT:
         return stats.incorrectAnswers === 0;
+      case QUIZ_MODES.LAST_QUIZ:
+        return !quizCtx?.lastQuizAvailable;
       default:
         return false;
     }
