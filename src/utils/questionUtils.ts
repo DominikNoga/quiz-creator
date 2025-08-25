@@ -23,10 +23,13 @@ export function getFilteredQuestions(
 
   switch (mode) {
     case 'all':
-      filtered = [...questions];
+      filtered = shuffleArray([...questions]);
       break;
     case 'random':
       filtered = shuffleArray([...questions]);
+      if (count && count > 0) {
+        filtered = filtered.slice(0, count);
+      }
       break;
     case 'difficult': {
       const difficultIds = progress
@@ -58,10 +61,6 @@ export function getFilteredQuestions(
       console.log(ids.filter(i => i.count > 1));
       break;
     }
-  }
-
-  if (count && count > 0) {
-    return filtered.slice(0, count);
   }
 
   return filtered;

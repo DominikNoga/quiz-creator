@@ -19,8 +19,9 @@ export default function QuizContextProvider({ children }: { children: React.Reac
 
   const setQuizQuestionsHandler = () => {
     setScore({ correct: 0, total: 0 });
+    setAnsweredQuestions(new Set());
     const filtered = getFilteredQuestions(questions, progress, quizMode, count);
-      setQuizQuestions(filtered);
+    setQuizQuestions(filtered);
   }
 
   return (
