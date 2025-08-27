@@ -10,6 +10,6 @@ export const LAST_QUIZ_DATA_KEY = 'last-quiz';
 export const INITIAL_QUIZ_DATA: QuizData = {
   quizMode: QUIZ_MODES.ALL,
   quizQuestions: [],
-  answeredQuestions: new Set<number>(),
+  answeredQuestions: [],
   score: INITIAL_SCORE,
 };

@@ -17,6 +17,6 @@ export type Score = {
 export type QuizData = {
   quizMode: QuizMode;
   quizQuestions: Question[];
-  answeredQuestions: Set<number>;
+  answeredQuestions: Array<number>;
   score: Score;
 };

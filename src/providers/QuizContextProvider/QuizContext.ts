@@ -5,12 +5,12 @@ import type { Score } from '../../types/quiz';
 export type QuizContextType = {
   quizMode: QuizMode;
   quizQuestions: Question[];
-  answeredQuestions: Set<number>;
+  answeredQuestions: Array<number>;
   score: Score;
   count: number;
   setQuizMode: (mode: QuizMode) => void;
   setQuizQuestions: () => void;
-  setAnsweredQuestions: (answered: Set<number>) => void;
+  setAnsweredQuestions: (answered: Array<number>) => void;
   setScore: (score: Score) => void;
   setCount: (count: number) => void;
   handleNextQuestion: () => void;

@@ -18,7 +18,7 @@ export default function QuizContextProvider({ children }: { children: React.Reac
   const [quizMode, setQuizMode] = useState<QuizMode>((searchParams.get('mode') as QuizMode) || 'all');
   const [quizQuestions, setQuizQuestions] = useState<Question[]>([]);
   const [count, setCount] = useState<number>(INITIAL_QUESTIONS_COUNT);
-  const [answeredQuestions, setAnsweredQuestions] = useState<Set<number>>(new Set());
+  const [answeredQuestions, setAnsweredQuestions] = useState<Array<number>>([]);
   const [score, setScore] = useState<Score>(INITIAL_SCORE);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
 
@@ -32,7 +32,7 @@ export default function QuizContextProvider({ children }: { children: React.Reac
 
   const loadNewQuiz = () => {
     setScore(INITIAL_SCORE);
-    setAnsweredQuestions(new Set());
+    setAnsweredQuestions([]);
     const filtered = getFilteredQuestions(questions, progress, quizMode, count);
     setQuizQuestions(filtered);
     setLastQuiz({
@@ -49,7 +49,7 @@ export default function QuizContextProvider({ children }: { children: React.Reac
       setQuizQuestions(lastQuiz.quizQuestions);
       setAnsweredQuestions(lastQuiz.answeredQuestions);
       setScore(lastQuiz.score);
-      setCurrentQuestionIndex(lastQuiz.answeredQuestions.size);
+      setCurrentQuestionIndex(lastQuiz.answeredQuestions.length || 0);
     }
   }
 

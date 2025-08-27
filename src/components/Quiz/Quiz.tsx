@@ -33,7 +33,7 @@ export default function Quiz() {
   const handleAnswer = (isCorrect: boolean) => {
     if (!currentQuestion) return;
     updateProgress(currentQuestion.id, isCorrect ? 'correct' : 'incorrect');
-    setAnsweredQuestions(new Set([...answeredQuestions, currentQuestionIndex]));
+    setAnsweredQuestions([...answeredQuestions, currentQuestionIndex]);
     setScore({
       correct: score.correct + (isCorrect ? 1 : 0),
       total: score.total + 1
@@ -83,7 +83,7 @@ export default function Quiz() {
         <button
           className="quiz__nav-btn quiz__nav-btn--primary"
           onClick={handleNextQuestion}
-          disabled={!answeredQuestions.has(currentQuestionIndex)}
+          disabled={!answeredQuestions.includes(currentQuestionIndex)}
         >
           {isLastQuestion ? 'Finish Quiz' : 'Next Question'}
         </button>
